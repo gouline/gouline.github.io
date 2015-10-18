@@ -40,7 +40,6 @@ a:hover {
 
 #container {
   display: block;
-  width: 700px;
   margin: 0 auto 0 auto;
   padding: 0 10px 40px 10px; 
 }
@@ -82,8 +81,6 @@ a:hover {
 }
 
 .section .thumbnail {
-  float: right;
-  margin: 20px 0 20px 40px;
   border: 20px solid #526069;
 }
 
@@ -98,4 +95,47 @@ a:hover {
 .copyright {
   font-size: 12px;
   text-align: center;
+}
+
+/* Media queries */
+
+@media only screen and (min-device-width: 480px) {
+  * {
+    font-size: 20px;
+  }
+
+  #container {
+    width: 480px;
+  }
+
+  .section .thumbnail {
+    float: none;
+    margin: 20px 0 0 40px;
+  }
+
+  .section .content ul li {
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  * {
+    font-size: 16px;
+  }
+
+  #container {
+    width: 700px;
+  }
+
+  .section .thumbnail {
+    float: right;
+    margin: 20px 0 20px 40px;
+  }
+
+  .section .content ul li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }

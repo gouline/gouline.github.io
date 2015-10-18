@@ -31,9 +31,14 @@ h2 {
   font-size: 50px;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 a:hover {
   color: #97A0A5;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Container */
@@ -65,7 +70,6 @@ a:hover {
 }
 
 .section .content ul {
-  margin-top: 20px;
   padding: 0;
   font-size: 14px;
   list-style: circle;
@@ -81,7 +85,8 @@ a:hover {
 }
 
 .section .thumbnail {
-  border: 20px solid #526069;
+  padding: 20px;
+  background: #526069;
 }
 
 .clear:after {
@@ -110,13 +115,21 @@ a:hover {
 
   .section .thumbnail {
     float: none;
-    margin: 20px 0 0 40px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .section .content ul {
+    margin-top: 30px;
   }
 
   .section .content ul li {
-    font-size: 22px;
     margin-top: 8px;
     margin-bottom: 8px;
+  }
+
+  .section .content ul li * {
+    font-size: 24px;
   }
 }
 
@@ -134,8 +147,16 @@ a:hover {
     margin: 20px 0 20px 40px;
   }
 
+  .section .content ul {
+    margin-top: 20px;
+  }
+
   .section .content ul li {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .section .content ul li * {
+    font-size: 16px;
   }
 }

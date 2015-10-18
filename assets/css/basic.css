@@ -21,14 +21,12 @@ h1 a, h2 a, h3 a, h4 a {
 
 h1 {
   color: #313A3F;
-  font-size: 60px;
   text-align: right;
   letter-spacing: -3px;
 }
 
 h2 {
   color: #313A3F;
-  font-size: 50px;
 }
 
 a {
@@ -109,14 +107,22 @@ a:hover {
     font-size: 20px;
   }
 
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
   #container {
     width: 480px;
   }
 
   .section .thumbnail {
     float: none;
-    margin: 0;
-    text-align: center;
+    margin-left: 0;
+    padding-left: 40px;
   }
 
   .section .content ul {
@@ -128,7 +134,7 @@ a:hover {
     margin-bottom: 8px;
   }
 
-  .section .content ul li * {
+  .section .content ul li, .section .content ul li * {
     font-size: 24px;
   }
 }
@@ -136,6 +142,14 @@ a:hover {
 @media only screen and (min-width: 992px) {
   * {
     font-size: 16px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 50px;
   }
 
   #container {
@@ -156,7 +170,7 @@ a:hover {
     margin-bottom: 0px;
   }
 
-  .section .content ul li * {
+  .section .content ul li, .section .content ul li * {
     font-size: 16px;
   }
 }

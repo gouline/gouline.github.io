@@ -135,7 +135,7 @@ a:hover {
   }
 
   .section .content ul li, .section .content ul li * {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -159,6 +159,7 @@ a:hover {
   .section .thumbnail {
     float: right;
     margin: 20px 0 20px 40px;
+    padding-left: 20px;
   }
 
   .section .content ul {

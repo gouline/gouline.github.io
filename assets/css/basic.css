@@ -88,6 +88,10 @@ a:hover {
   background: #526069;
 }
 
+.section .main-menu {
+  line-height: 100%;
+}
+
 .clear:after {
   clear: both;
   content: "";

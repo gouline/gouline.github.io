@@ -1,0 +1,35 @@
+---
+layout: default
+title: Portfolio
+alias: /portfolio/index.html
+---
+
+{% for portfolio in site.data.portfolio %}
+<div class="section clear">
+	<div class="thumbnail">
+		<img src="{{ portfolio.screenshot_url }}" class="app-screenshot" />
+	</div>
+	<div class="content">
+		<h2>{{ portfolio.title }}</h2>
+		<p>{{ portfolio.description }}</p>
+		<ul>
+			<li>
+				<em>Who?</em> 
+				<a href="{{ portfolio.company_url }}">
+					{{ portfolio.company_name }}
+				</a>
+			</li>
+			<li>
+				<em>When?</em> 
+				{{ portfolio.date }}
+			</li>
+			<li>
+				<em>Where?</em> 
+				{% if portfolio.link_url %}<a href="{{ portfolio.link_url }}" target="_blank">{% endif %}
+					{{ portfolio.link_title }}
+				{% if portfolio.link_url %}</a>{% endif %}
+			</li>
+		</ul>
+	</div>
+</div>
+{% endfor %}

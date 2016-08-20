@@ -1,0 +1,19 @@
+---
+layout: default
+title: Talks
+alias: /talks/index.html
+---
+
+{% for talk in site.data.talks %}
+<div class="section clear">
+	<div class="content">
+		<h2>{{ talk.title }}</h2>
+		<p>{{ talk.description }}</p>
+		<ul class="inline">
+			{% for link in talk.links %}
+			<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+{% endfor %}

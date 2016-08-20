@@ -1,0 +1,97 @@
+- title: Safedome
+  description: >
+    Safedome is the new way to keep your valuables and identity safe 24/7. Having 
+    completed the iPhone app internally, Maxwell Forest engaged me to build the 
+    Android app from scratch. In addition to the implementation, my duties included
+    consulting on the better ways to convert the iOS design to Android best practices
+    and building various internal web services.
+  company_name: Maxwell Forest
+  company_url: http://maxwellforest.com/
+  date: 2015 – 2016
+  link_title: Google Play
+  link_url: https://play.google.com/store/apps/details?id=com.maxwellforest.safedome
+  screenshot_url: ./assets/portfolio/safedome.png
+  
+- title: CoinJar Touch
+  description: >
+    CoinJar is a simple everyday bitcoin payments app. My involvement was 
+    finishing the product after the initial framework and basic features were put 
+    in place. As the sole Android developer on the project at the time, my 
+    responsibilities included delivering the app on tight deadlines as well as 
+    consulting on the appropriate UX practices.
+  company_name: CoinJar
+  company_url: https://www.coinjar.com/
+  date: 2014 – 2015
+  link_title: Google Play
+  link_url: https://play.google.com/store/apps/details?id=com.coinjar.android.touch
+  screenshot_url: ./assets/portfolio/coinjar.png
+
+- title: SafeMate
+  description: >
+    SafeMate is an app designed to help first responders with identifying the
+    rescuee by scanning their NFC-enabled wristband and providing their medical records.
+    The second version of the app that I delivered was a complete rewrite, which, in addition
+    to containing new features, also introduced modern best practices and platform-recommended 
+    tooling to the project.
+  company_name: Safe Mate Australia
+  company_url: https://www.safemate-australia.com.au/
+  date: 2015
+  link_title: Google Play
+  link_url: https://play.google.com/store/apps/details?id=au.com.safemateaustralia.user
+  screenshot_url: ./assets/portfolio/safemate.png
+
+- title: CarsGuide.com.au
+  description: >
+    CarsGuide.com.au is an online service for selling new and used cars. Working
+    in a team of two (part of Vivant), the app was delivered from scratch in a short
+    amount of time and following the material design guidelines, dramatically improved 
+    the user rating for the client.
+  company_name: Vivant
+  company_url: https://www.vivant.com.au/
+  date: 2015
+  link_title: Google Play
+  link_url: https://play.google.com/store/apps/details?id=au.com.carsguide
+  screenshot_url: ./assets/portfolio/carsguide.png
+
+- title: Foxtel Guide
+  description: >
+    Foxtel Guide is the TV schedule app for Foxtel subscribers designed for checking
+    detailed information about the programming, setting reminders and remote recording 
+    while away from the set-top box. Working with the original author of the Android app and
+    teams of varying sizes over the 3 years, my function varied from bug fixes to leading
+    the whole team through a major redesign.
+  company_name: Valtech Australia (formerly Neon Stingray)
+  company_url: https://www.valtech.com/services/i/
+  date: 2011 – 2013
+  link_title: Google Play
+  link_url: https://play.google.com/store/apps/details?id=com.foxtel.epg
+  screenshot_url: ./assets/portfolio/foxtelguide.png
+
+- title: Songl
+  description: >
+    Songl was an Australian music streaming service. My responsibilities on the app
+    included many aspects, from the user interface of the music player to the background
+    service providing the actual playback functionality, all through two complete redesigns
+    of the app.
+    <br/><br/>
+    Songl was shut down in 2014.
+  company_name: Valtech Australia (formerly Neon Stingray)
+  company_url: https://www.valtech.com/services/i/
+  date: 2012 – 2013
+  link_title: No longer available :(
+  link_url: #
+  screenshot_url: ./assets/portfolio/songl.png
+
+- title: AskU
+  description: >
+    AskU was a charity-focused app that allowed users to exchange their time taking
+    consumer surveys for donations to their preferred non-profit organisations. Being a 
+    part of the product incubator at PwC Australia, I led the mobile team working on 
+    AskU iOS app (as well as other products) while remaining the sole developer on the 
+    Android app.
+  company_name: PwC Digital Australia
+  company_url: https://www.digitalpulse.pwc.com.au/
+  date: 2013 – 2014
+  link_title: No longer available :(
+  link_url: #
+  screenshot_url: ./assets/portfolio/asku.png

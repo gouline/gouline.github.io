@@ -1,0 +1,70 @@
+- title: >
+    Asynchronous Vert.x Applications in Kotlin
+  description: >
+    Looking at web development, Spring seems to be the star of most Kotlin articles and tutorials. 
+    This talk will explore an asynchronous alternative that is Vert.x and evaluate its production 
+    readiness. We’ll do that by writing a simple (but working) web API, with some neat Kotlin 
+    features to boot, and figure out what the benefits of using this framework are.
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/10cC6WJwu6G0a3ZMoFMoWl_slOHG2JDcswEOQj-5qwco
+    
+    - title: Source
+      url: https://github.com/mgouline/vertx-kotlin-example
+
+- title: >
+    Kotlin production tales
+  description: >
+    Kotlin has finally graduated to a release version and we have rewritten one of our production 
+    apps in the language. Now armed with some real-life perspective, the time has come to reveal 
+    whether it was worthwhile or the conservatives who stuck with the "officially supported" Java 
+    were right all along.
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/1wV8E-277sUYl-mkmrqfrlfaOq5A3PF8Mq3tzPbtjtQI
+    
+    - title: Article
+      url: https://blog.gouline.net/kotlin-production-tales-62b56057dc8a
+
+- title: >
+    Kotlin, a year on
+  description: >
+    Revisit of last year's talk about Kotlin and its application in Android development. Summary 
+    of the changes that took place since then, new features and feasibility for production usage 
+    as it stands.
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/1fM94OW7U6I_RSCKMsgTgZu2gVj5LQehSiKDBcFZE9Zw
+
+- title: >
+    Dagger 2: Even sharper, less square
+  description: >
+    It was only a matter of time before version 2.0 of the well-known dependency injection library 
+    Dagger hit production and that marks a good time to discuss the changes in the new version and 
+    how they can benefit Android developers.
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/1l64ezSrQNxkN7wGdRFdyLopqiGZUZtzgoyOMxN3iQZc
+    
+    - title: Article
+      url: https://blog.gouline.net/2015/05/04/dagger-2-even-sharper-less-square/
+    
+    - title: Source
+      url: https://github.com/mgouline/android-samples/tree/master/dagger2-demo
+
+- title: >
+    Kotlin, the Swift of Android
+  description: >
+    Now that Apple released Swift for iOS, the need for a more modern language for Android 
+    development has become even more apparent and although there are no official alternatives 
+    available from Google, there is viable option from JetBrains -- Kotlin, a modern JVM-based 
+    language fully integrated into Android Studio and easily usable with the Android SDK.
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/13RJaGdj4-uqb9o7a-OXt6j6FXGCxedk2pyvlG0-jcAQ
+    
+    - title: Article
+      url: https://blog.gouline.net/2014/08/31/kotlin-the-swift-of-android/
+    
+    - title: Source
+      url: https://github.com/mgouline/android-samples/tree/master/kotlin-demo

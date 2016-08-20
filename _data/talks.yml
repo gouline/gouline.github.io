@@ -1,5 +1,4 @@
-- title: >
-    Asynchronous Vert.x Applications in Kotlin
+- title: "Asynchronous Vert.x Applications in Kotlin"
   description: >
     Looking at web development, Spring seems to be the star of most Kotlin articles and tutorials. 
     This talk will explore an asynchronous alternative that is Vert.x and evaluate its production 
@@ -12,8 +11,7 @@
     - title: Source
       url: https://github.com/mgouline/vertx-kotlin-example
 
-- title: >
-    Kotlin production tales
+- title: "Kotlin production tales"
   description: >
     Kotlin has finally graduated to a release version and we have rewritten one of our production 
     apps in the language. Now armed with some real-life perspective, the time has come to reveal 
@@ -26,8 +24,7 @@
     - title: Article
       url: https://blog.gouline.net/kotlin-production-tales-62b56057dc8a
 
-- title: >
-    Kotlin, a year on
+- title: "Kotlin, a year on"
   description: >
     Revisit of last year's talk about Kotlin and its application in Android development. Summary 
     of the changes that took place since then, new features and feasibility for production usage 
@@ -36,8 +33,7 @@
     - title: Slides
       url: https://docs.google.com/presentation/d/1fM94OW7U6I_RSCKMsgTgZu2gVj5LQehSiKDBcFZE9Zw
 
-- title: >
-    Dagger 2: Even sharper, less square
+- title: "Dagger 2: Even sharper, less square"
   description: >
     It was only a matter of time before version 2.0 of the well-known dependency injection library 
     Dagger hit production and that marks a good time to discuss the changes in the new version and 
@@ -52,8 +48,7 @@
     - title: Source
       url: https://github.com/mgouline/android-samples/tree/master/dagger2-demo
 
-- title: >
-    Kotlin, the Swift of Android
+- title: "Kotlin, the Swift of Android"
   description: >
     Now that Apple released Swift for iOS, the need for a more modern language for Android 
     development has become even more apparent and although there are no official alternatives 

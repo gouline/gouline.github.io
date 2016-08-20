@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Portfolio
-alias: /portfolio/index.html
 ---
 
 {% for portfolio in site.data.portfolio %}
@@ -14,20 +13,20 @@ alias: /portfolio/index.html
 		<p>{{ portfolio.description }}</p>
 		<ul>
 			<li>
-				<em>Who?</em> 
+				Client:
 				<a href="{{ portfolio.company_url }}">
 					{{ portfolio.company_name }}
 				</a>
-			</li>
+			</li>			
 			<li>
-				<em>When?</em> 
-				{{ portfolio.date }}
-			</li>
-			<li>
-				<em>Where?</em> 
+				Available:
 				{% if portfolio.link_url %}<a href="{{ portfolio.link_url }}" target="_blank">{% endif %}
 					{{ portfolio.link_title }}
 				{% if portfolio.link_url %}</a>{% endif %}
+			</li>
+			<li>
+				Period:
+				{{ portfolio.date }}
 			</li>
 		</ul>
 	</div>

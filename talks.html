@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Talks
-alias: /talks/index.html
 ---
 
 {% for talk in site.data.talks %}
@@ -9,7 +8,7 @@ alias: /talks/index.html
 	<div class="content">
 		<h2>{{ talk.title }}</h2>
 		<p>{{ talk.description }}</p>
-		<ul class="inline">
+		<ul class="content-links">
 			{% for link in talk.links %}
 			<li><a href="{{ link.url }}">{{ link.title }}</a></li>
 			{% endfor %}

@@ -18,15 +18,14 @@ title: Portfolio
 		<ul>
 			<li>
 				<b>Client:</b>
-				<a href="{{ portfolio.company_url }}">
-					{{ portfolio.company_name }}
+				<a href="{{ portfolio.company.url }}">
+					{{ portfolio.company.name }}
 				</a>
+                {% if portfolio.company.label %} – {{ portfolio.company.label }}{% endif %}
 			</li>			
 			<li>
 				<b>Available:</b>
-				{% if portfolio.link_url %}<a href="{{ portfolio.link_url }}" target="_blank">{% endif %}
-					{{ portfolio.link_title }}
-				{% if portfolio.link_url %}</a>{% endif %}
+				{% for l in portfolio.links %}{% if forloop.index > 1 %}, {% endif %}{% if l.url %}<a href="{{ l.url }}" target="_blank">{% endif %}{{ l.title }}{% if l.url %}</a>{% endif %}{% if l.label %} ({{ l.label }}){% endif %}{% endfor %}
 			</li>
 			<li>
 				<b>Period:</b>

@@ -1,9 +1,47 @@
+- title: "Kotlin, The Pragmatic Language For Android"
+  description: >
+    Kotlin, a relatively new programming language running on the JVM, has been making 
+    headlines as the more elegant alternative to Java in any of its applications. One of them 
+    is Android development and this talk will explore the benefits that the 
+    language offers for everyday coding.
+    <br/><br/>
+    The presentation will start by explaining what Kotlin is, who developed it and what their 
+    motivation was. Continuing on from there, there will be a demonstration of notable features 
+    of the language that set it apart from Java. Once the audience is more comfortable with the 
+    syntax, Android development will be introduced as a use case for the language, explaining 
+    what the benefits are and what it takes to start using Kotlin in existing apps. Finally, 
+    the conclusion will have some information about future developments and more learning 
+    resources for those interested.
+  events:
+      - title: YOW! Connected Conference 2016
+        date: 5-6 October 2016
+        url: http://connected.yowconference.com.au/
+      
+      - title: Android Australia UG Meetup
+        date: 20 September 2016
+        url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/233409117/
+
+- title: "Practical Guide to Gradle with Kotlin"
+  description: >
+    You can now write Gradle scripts in Kotlin. So what? This talk will show you how, why and 
+    when to do it. We’ll cover basic syntax and review a few simple examples that you can use 
+    in your existing projects.
+  events:
+    - title: Sydney JVM Community Meetup
+      date: 14 September 2016
+      url: http://www.meetup.com/Sydney-JVM-Community/events/233465115/
+
 - title: "Asynchronous Vert.x Applications in Kotlin"
   description: >
     Looking at web development, Spring seems to be the star of most Kotlin articles and tutorials. 
     This talk will explore an asynchronous alternative that is Vert.x and evaluate its production 
     readiness. We’ll do that by writing a simple (but working) web API, with some neat Kotlin 
     features to boot, and figure out what the benefits of using this framework are.
+  events:
+    - title: Android Australia UG Meetup
+      date: 4 August 2016
+      url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/232408253/
+
   links:
     - title: Slides
       url: https://docs.google.com/presentation/d/10cC6WJwu6G0a3ZMoFMoWl_slOHG2JDcswEOQj-5qwco
@@ -17,6 +55,11 @@
     apps in the language. Now armed with some real-life perspective, the time has come to reveal 
     whether it was worthwhile or the conservatives who stuck with the "officially supported" Java 
     were right all along.
+  events:
+    - title: Android Australia UG Meetup
+      date: 3 May 2016
+      url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/230365787/
+  
   links:
     - title: Slides
       url: https://docs.google.com/presentation/d/1wV8E-277sUYl-mkmrqfrlfaOq5A3PF8Mq3tzPbtjtQI
@@ -29,6 +72,11 @@
     Revisit of last year's talk about Kotlin and its application in Android development. Summary 
     of the changes that took place since then, new features and feasibility for production usage 
     as it stands.
+  events:
+    - title: Android Australia UG Meetup
+      date: 6 October 2015
+      url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/225340355/
+  
   links:
     - title: Slides
       url: https://docs.google.com/presentation/d/1fM94OW7U6I_RSCKMsgTgZu2gVj5LQehSiKDBcFZE9Zw
@@ -38,6 +86,11 @@
     It was only a matter of time before version 2.0 of the well-known dependency injection library 
     Dagger hit production and that marks a good time to discuss the changes in the new version and 
     how they can benefit Android developers.
+  events:
+    - title: Android Australia UG Meetup
+      date: 5 May 2015
+      url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/221697756/
+  
   links:
     - title: Slides
       url: https://docs.google.com/presentation/d/1l64ezSrQNxkN7wGdRFdyLopqiGZUZtzgoyOMxN3iQZc
@@ -54,6 +107,11 @@
     development has become even more apparent and although there are no official alternatives 
     available from Google, there is viable option from JetBrains -- Kotlin, a modern JVM-based 
     language fully integrated into Android Studio and easily usable with the Android SDK.
+  events:
+    - title: Android Australia UG Meetup
+      date: 2 September 2014
+      url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/201086472/
+  
   links:
     - title: Slides
       url: https://docs.google.com/presentation/d/13RJaGdj4-uqb9o7a-OXt6j6FXGCxedk2pyvlG0-jcAQ

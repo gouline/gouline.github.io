@@ -9,7 +9,7 @@ Base colors:
 /* Generic */
 
 * {
-	font-family: arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 #header-logo {
-  margin: 20px 30px 20px 30px;
+  margin: 20px 20px 20px 30px;
   width: 90px;
   height: 90px;
 }
@@ -113,7 +113,8 @@ ul#header-nav .icons a {
 #footer {
   padding: 20px 0 40px;
   text-align: center;
-  font-size: 14px; 
+  font-size: 14px;
+  font-weight: light;
   letter-spacing: .03em;
   color: #aaa;
   border-top: 1px solid #ddd;
@@ -137,10 +138,6 @@ ul#header-nav .icons a {
 
 /* Sections */
 
-.fixed-width {
-  margin: 0 auto 0 auto;
-}
-
 .section {
 	display: block;
 	position: relative;
@@ -152,46 +149,69 @@ ul#header-nav .icons a {
   border-top: 0;
 }
 
-.section .content {
+.fixed-width {
+  margin: 0 auto 0 auto;
+}
+
+/* Content sections */
+
+.section-content {
 	display: block; 
 	padding: 30px 25px 15px 25px;
 }
 
-.section .content ul {
+.section-content a {
+  color: #222;
+  opacity: 0.6;
+}
+
+.section-content a:hover {
+  opacity: 1.0;
+}
+
+.section-content ul {
 	padding: 0;
 	font-size: 14px;
 	list-style: circle;
 }
 
-.section .content ul.content-links {
+.section-content ul {
+  list-style-type: none;
+}
+
+.section-content ul.section-content-links {
   margin-top: 25px;
 }
 
-.section .content ul.content-links li {
+.section-content ul.section-content-links li {
 	display: inline;
 	margin-right: 5px;
 }
 
-.section .content ul.content-links li a {
+.section-content ul.section-content-links li a {
   padding: 6px 12px 6px 12px;
   background: #444;
   color: #fff;
   text-decoration: none;
+  white-space: nowrap;
+  line-height: 2;
   border-radius: 5px;
+  opacity: 0.6;
 }
 
-.section .content ul.content-links li a:hover {
-  background: #555;
+.section-content ul.section-content-links li a:hover {
   text-decoration: none;
+  opacity: 1.0;
 }
 
-.section .thumbnail {
-	padding: 20px;
-	background: #526069;
-}
-
-.menu h1, .menu h2, .menu h3, .menu h4 {
-	line-height: 100%;
+img.section-thumbnail {
+  margin: 20px 20px 0 20px;
+  padding: 55px 12px 65px 12px;
+  width: 236px;
+  height: 420px;
+  background: #222;
+  border-radius: 30px;
+  border: 2px solid #666;
 }
 
 .clear:after {
@@ -200,15 +220,8 @@ ul#header-nav .icons a {
 	display: table;
 }
 
-/* Page-specific */
-
-.app-screenshot {
-	width: 172px;
-	height: 305px;
-}
-
 /* Phone-only */
-@media only screen and (min-device-width: 480px) {
+@media only screen and (min-width: 100px) and (max-width: 800px) {
 	.fixed-width {
 		max-width: 480px!important;
   }
@@ -264,24 +277,24 @@ ul#header-nav .icons a {
     font-size: 16px;
   }
 
-	.section .thumbnail {
+	.section-thumbnail {
 		float: none;
 		margin-left: 0;
 		padding-left: 40px;
 	}
 
-	.section .content ul {
+	.section-content ul {
 		margin-top: 30px;
 	}
 
-	.section .content ul li {
+	.section-content ul li {
 		margin-top: 8px;
 		margin-bottom: 8px;
 	}
 }
 
 /* Desktop-only */
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 800px) {
 	.fixed-width {
 		max-width: 900px!important;
   }
@@ -337,17 +350,17 @@ ul#header-nav .icons a {
     font-size: 16px;
   }
 
-	.section .thumbnail {
+	.section-thumbnail {
 		float: right;
 		margin: 20px 0 20px 40px;
 		padding-left: 20px;
 	}
 
-	.section .content ul {
+	.section-content ul {
 		margin-top: 20px;
 	}
 
-	.section .content ul li {
+	.section-content ul li {
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}

@@ -5,27 +5,27 @@ title: Portfolio
 
 {% for portfolio in site.data.portfolio %}
 <div class="section clear">
-	<div class="thumbnail">
-		<img src="{{ portfolio.screenshot_url }}" class="app-screenshot" />
+	<div>
+		<img src="{{ portfolio.screenshot_url }}" class="section-thumbnail"/>
 	</div>
-	<div class="content">
+	<div class="section-content">
 		<h2>{{ portfolio.title }}</h2>
 		<p>{{ portfolio.description }}</p>
 		<ul>
 			<li>
-				Client:
+				<b>Client:</b>
 				<a href="{{ portfolio.company_url }}">
 					{{ portfolio.company_name }}
 				</a>
 			</li>			
 			<li>
-				Available:
+				<b>Available:</b>
 				{% if portfolio.link_url %}<a href="{{ portfolio.link_url }}" target="_blank">{% endif %}
 					{{ portfolio.link_title }}
 				{% if portfolio.link_url %}</a>{% endif %}
 			</li>
 			<li>
-				Period:
+				<b>Period:</b>
 				{{ portfolio.date }}
 			</li>
 		</ul>

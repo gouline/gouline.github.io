@@ -5,10 +5,18 @@ title: Talks
 
 {% for talk in site.data.talks %}
 <div class="section clear">
-	<div class="content">
+	<div class="section-content">
 		<h2>{{ talk.title }}</h2>
+        {% for event in talk.events %}
+            <em>
+                <a href="{{ event.url }}">{{ event.title }}</a>
+                {% if event.date and event.title %} – {% endif %}                
+                {{ event.date }}
+            </em>
+            <br/>
+        {% endfor %}
 		<p>{{ talk.description }}</p>
-		<ul class="content-links">
+		<ul class="section-content-links">
 			{% for link in talk.links %}
 			<li><a href="{{ link.url }}">{{ link.title }}</a></li>
 			{% endfor %}

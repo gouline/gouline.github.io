@@ -5,8 +5,12 @@ title: Talks
 
 {% for talk in site.data.talks %}
 <div class="section clear">
+    <a name="{{ talk.anchor }}"></a>
 	<div class="section-content">
-		<h2>{{ talk.title }}</h2>
+		<h2>
+            {{ talk.title }}
+            <a href="#{{ talk.anchor }}" class="section-anchor">#</a>
+        </h2>
         {% for event in talk.events %}
             <em>
                 <a href="{{ event.url }}">{{ event.title }}</a>
@@ -21,6 +25,7 @@ title: Talks
 			<li><a href="{{ link.url }}">{{ link.title }}</a></li>
 			{% endfor %}
 		</ul>
+        
 	</div>
 </div>
 {% endfor %}

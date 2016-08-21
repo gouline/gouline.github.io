@@ -5,11 +5,15 @@ title: Portfolio
 
 {% for portfolio in site.data.portfolio %}
 <div class="section clear">
+    <a name="{{ portfolio.anchor }}"></a>
 	<div>
 		<img src="{{ portfolio.screenshot_url }}" class="section-thumbnail"/>
 	</div>
 	<div class="section-content">
-		<h2>{{ portfolio.title }}</h2>
+		<h2>
+            {{ portfolio.title }}
+            <a href="#{{ portfolio.anchor }}" class="section-anchor">#</a>
+        </h2>
 		<p>{{ portfolio.description }}</p>
 		<ul>
 			<li>

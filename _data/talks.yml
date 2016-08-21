@@ -1,4 +1,5 @@
 - title: "Kotlin, The Pragmatic Language For Android"
+  anchor: kotlin-the-pragmatic-language-for-android
   description: >
     Kotlin, a relatively new programming language running on the JVM, has been making 
     headlines as the more elegant alternative to Java in any of its applications. One of them 
@@ -22,6 +23,7 @@
         url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/233409117/
 
 - title: "Practical Guide to Gradle with Kotlin"
+  anchor: practical-guide-to-gradle-with-kotlin
   description: >
     You can now write Gradle scripts in Kotlin. So what? This talk will show you how, why and 
     when to do it. We’ll cover basic syntax and review a few simple examples that you can use 
@@ -32,6 +34,7 @@
       url: http://www.meetup.com/Sydney-JVM-Community/events/233465115/
 
 - title: "Asynchronous Vert.x Applications in Kotlin"
+  anchor: asynchronous-vertx-applications-in-kotlin
   description: >
     Looking at web development, Spring seems to be the star of most Kotlin articles and tutorials. 
     This talk will explore an asynchronous alternative that is Vert.x and evaluate its production 
@@ -50,6 +53,7 @@
       url: https://github.com/mgouline/vertx-kotlin-example
 
 - title: "Kotlin production tales"
+  anchor: kotlin-production-tales
   description: >
     Kotlin has finally graduated to a release version and we have rewritten one of our production 
     apps in the language. Now armed with some real-life perspective, the time has come to reveal 
@@ -68,6 +72,7 @@
       url: https://blog.gouline.net/kotlin-production-tales-62b56057dc8a
 
 - title: "Kotlin, a year on"
+  anchor: kotlin-a-year-on
   description: >
     Revisit of last year's talk about Kotlin and its application in Android development. Summary 
     of the changes that took place since then, new features and feasibility for production usage 
@@ -82,6 +87,7 @@
       url: https://docs.google.com/presentation/d/1fM94OW7U6I_RSCKMsgTgZu2gVj5LQehSiKDBcFZE9Zw
 
 - title: "Dagger 2: Even sharper, less square"
+  anchor: dagger-2-even-sharper-less-square
   description: >
     It was only a matter of time before version 2.0 of the well-known dependency injection library 
     Dagger hit production and that marks a good time to discuss the changes in the new version and 
@@ -102,6 +108,7 @@
       url: https://github.com/mgouline/android-samples/tree/master/dagger2-demo
 
 - title: "Kotlin, the Swift of Android"
+  anchor: kotlin-the-swift-of-android
   description: >
     Now that Apple released Swift for iOS, the need for a more modern language for Android 
     development has become even more apparent and although there are no official alternatives 

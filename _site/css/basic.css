@@ -196,6 +196,11 @@ ul#header-nav .icons a {
   opacity: 1.0;
 }
 
+.section-content a.section-anchor {
+  font-size: 15px; 
+  color: #aaa;
+}
+
 img.section-thumbnail {
   margin: 20px 20px 0 20px;
   padding: 55px 12px 65px 12px;

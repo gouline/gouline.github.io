@@ -1,4 +1,5 @@
 - title: Safedome
+  anchor: safedome
   description: >
     Safedome is the new way to keep your valuables and identity safe 24/7. Having 
     completed the iPhone app internally, Maxwell Forest engaged me to build the 
@@ -13,6 +14,7 @@
   screenshot_url: ./assets/portfolio/safedome.png
   
 - title: CoinJar Touch
+  anchor: coinjar-touch
   description: >
     CoinJar is a simple everyday bitcoin payments app. My involvement was 
     finishing the product after the initial framework and basic features were put 
@@ -27,6 +29,7 @@
   screenshot_url: ./assets/portfolio/coinjar.png
 
 - title: SafeMate
+  anchor: safemate
   description: >
     SafeMate is an app designed to help first responders with identifying the
     rescuee by scanning their NFC-enabled wristband and providing their medical records.
@@ -41,6 +44,7 @@
   screenshot_url: ./assets/portfolio/safemate.png
 
 - title: CarsGuide.com.au
+  anchor: carsguide
   description: >
     CarsGuide.com.au is an online service for selling new and used cars. Working
     in a team of two (part of Vivant), the app was delivered from scratch in a short
@@ -54,6 +58,7 @@
   screenshot_url: ./assets/portfolio/carsguide.png
 
 - title: Foxtel Guide
+  anchor: foxtel-guide
   description: >
     Foxtel Guide is the TV schedule app for Foxtel subscribers designed for checking
     detailed information about the programming, setting reminders and remote recording 
@@ -68,6 +73,7 @@
   screenshot_url: ./assets/portfolio/foxtelguide.png
 
 - title: Songl
+  anchor: songl
   description: >
     Songl was an Australian music streaming service. My responsibilities on the app
     included many aspects, from the user interface of the music player to the background
@@ -83,6 +89,7 @@
   screenshot_url: ./assets/portfolio/songl.png
 
 - title: AskU
+  anchor: asku
   description: >
     AskU was a charity-focused app that allowed users to exchange their time taking
     consumer surveys for donations to their preferred non-profit organisations. Being a 

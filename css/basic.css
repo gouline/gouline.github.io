@@ -218,7 +218,7 @@ img.section-thumbnail {
 		max-width: 480px!important;
   }
   
-  #header {
+  #header-content {
   	padding-left: 10px;
     padding-right: 10px;
   }
@@ -295,7 +295,8 @@ img.section-thumbnail {
 	.fixed-width {
 		max-width: 900px!important;
   }
-  #header {
+  
+  #header-content {
   	padding-left: 0;
     padding-right: 0;
   }

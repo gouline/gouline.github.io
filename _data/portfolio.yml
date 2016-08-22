@@ -15,7 +15,7 @@
   links:
     - title: Google Play
       url: https://play.google.com/store/apps/details?id=com.maxwellforest.safedome
-  screenshot_url: ./assets/portfolio/safedome.png
+  screenshot_url: safedome.png
   
 - title: CoinJar Touch
   anchor: coinjar-touch
@@ -34,7 +34,7 @@
   links:
     - title: Google Play
       url: https://play.google.com/store/apps/details?id=com.coinjar.android.touch
-  screenshot_url: ./assets/portfolio/coinjar.png
+  screenshot_url: coinjar.png
 
 - title: SafeMate
   anchor: safemate
@@ -51,7 +51,7 @@
   links:
     - title: Google Play
       url: https://play.google.com/store/apps/details?id=au.com.safemateaustralia.user
-  screenshot_url: ./assets/portfolio/safemate.png
+  screenshot_url: safemate.png
 
 - title: CarsGuide.com.au
   anchor: carsguide
@@ -67,7 +67,7 @@
   links:
     - title: Google Play
       url: https://play.google.com/store/apps/details?id=au.com.carsguide
-  screenshot_url: ./assets/portfolio/carsguide.png
+  screenshot_url: carsguide.png
 
 - title: Foxtel Guide
   anchor: foxtel-guide
@@ -95,7 +95,7 @@
     - title: App Store
       label: iPad
       url: https://itunes.apple.com/au/app/foxtel-guide-for-ipad/id396032029?mt=8
-  screenshot_url: ./assets/portfolio/foxtelguide.png
+  screenshot_url: foxtelguide.png
 
 - title: Songl
   anchor: songl
@@ -113,7 +113,7 @@
   date: 2012 – 2013
   links:
     - title: No longer available :-(
-  screenshot_url: ./assets/portfolio/songl.png
+  screenshot_url: songl.png
 
 - title: AskU
   anchor: asku
@@ -129,4 +129,4 @@
   date: 2013 – 2014
   links:
     - title: No longer available :-(
-  screenshot_url: ./assets/portfolio/asku.png
+  screenshot_url: asku.png

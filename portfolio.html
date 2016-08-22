@@ -8,7 +8,7 @@ description: Portfolio of past projects.
 <div class="section clear">
     <a name="{{ portfolio.anchor }}"></a>
 	<div>
-		<img src="{{ portfolio.screenshot_url }}" class="section-thumbnail"/>
+		<img src="{{ site.baseurl }}/assets/portfolio/{{ portfolio.screenshot_url }}" class="section-thumbnail"/>
 	</div>
 	<div class="section-content">
 		<h2>
@@ -16,7 +16,7 @@ description: Portfolio of past projects.
             <a href="#{{ portfolio.anchor }}" class="section-anchor">#</a>
         </h2>
 		<p>{{ portfolio.description }}</p>
-		<ul>
+		<ul class="portfolio-list">
 			<li>
 				<b>Client:</b>
 				<a href="{{ portfolio.company.url }}">

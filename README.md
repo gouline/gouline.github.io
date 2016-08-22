@@ -1,3 +1,3 @@
 # mgouline.github.io
 
-Gouline Labs website: [https://gouline.net].
+Gouline Labs website: https://gouline.net.

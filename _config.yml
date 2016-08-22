@@ -17,4 +17,13 @@
 # Build settings
 markdown: kramdown
 baseurl: ""
-safe: false
+url: "https://gouline.net"
+
+# Content
+title: "Gouline Labs"
+
+# Social
+social_github: "mgouline"
+social_twitter: "mgouline"
+social_gplus: "MikeGouline"
+

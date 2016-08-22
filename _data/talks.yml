@@ -5,14 +5,6 @@
     headlines as the more elegant alternative to Java in any of its applications. One of them 
     is Android development and this talk will explore the benefits that the 
     language offers for everyday coding.
-    <br/><br/>
-    The presentation will start by explaining what Kotlin is, who developed it and what their 
-    motivation was. Continuing on from there, there will be a demonstration of notable features 
-    of the language that set it apart from Java. Once the audience is more comfortable with the 
-    syntax, Android development will be introduced as a use case for the language, explaining 
-    what the benefits are and what it takes to start using Kotlin in existing apps. Finally, 
-    the conclusion will have some information about future developments and more learning 
-    resources for those interested.
   events:
       - title: YOW! Connected Conference 2016
         date: 5-6 October 2016

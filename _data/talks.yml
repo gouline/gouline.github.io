@@ -7,11 +7,11 @@
     language offers for everyday coding.
   events:
       - title: YOW! Connected Conference 2016
-        date: 5-6 October 2016
+        date: 2016-10-05
         url: http://connected.yowconference.com.au/
       
       - title: Android Australia UG Meetup
-        date: 20 September 2016
+        date: 2016-09-20
         url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/233409117/
 
 - title: "Practical Guide to Gradle with Kotlin"
@@ -22,7 +22,7 @@
     in your existing projects.
   events:
     - title: Sydney JVM Community Meetup
-      date: 14 September 2016
+      date: 2016-09-14
       url: http://www.meetup.com/Sydney-JVM-Community/events/233465115/
 
 - title: "Asynchronous Vert.x Applications in Kotlin"
@@ -34,7 +34,7 @@
     features to boot, and figure out what the benefits of using this framework are.
   events:
     - title: Android Australia UG Meetup
-      date: 4 August 2016
+      date: 2016-08-04
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/232408253/
 
   links:
@@ -53,7 +53,7 @@
     were right all along.
   events:
     - title: Android Australia UG Meetup
-      date: 3 May 2016
+      date: 2016-05-03
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/230365787/
   
   links:
@@ -71,7 +71,7 @@
     as it stands.
   events:
     - title: Android Australia UG Meetup
-      date: 6 October 2015
+      date: 2015-10-06
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/225340355/
   
   links:
@@ -86,7 +86,7 @@
     how they can benefit Android developers.
   events:
     - title: Android Australia UG Meetup
-      date: 5 May 2015
+      date: 2015-05-05
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/221697756/
   
   links:
@@ -108,7 +108,7 @@
     language fully integrated into Android Studio and easily usable with the Android SDK.
   events:
     - title: Android Australia UG Meetup
-      date: 2 September 2014
+      date: 2014-09-02
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/201086472/
   
   links:

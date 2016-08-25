@@ -13,6 +13,7 @@ body {
 
 h1, h2, h3, h4 {
   margin: 0;
+  margin-bottom: 3px;
 }
 
 a {
@@ -205,6 +206,7 @@ ul#header-nav .icons a {
 }
 
 .section-content ul.section-content-links li a {
+  display: inline;
   padding: 6px 12px 6px 12px;
   background: #444;
   color: #fff;
@@ -223,6 +225,11 @@ ul#header-nav .icons a {
 .section-content a.section-anchor {
   font-size: 15px; 
   color: #aaa;
+}
+
+.section-content .upcoming-flag {
+  color: #944; 
+  font-weight: bold; 
 }
 
 img.section-thumbnail {

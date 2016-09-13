@@ -15,7 +15,7 @@ description: Talk materials and links.
         {% for event in talk.events %}
             <em>
                 <span class="upcoming-flag" date="{{ event.date }}" style="display:none;">Upcoming:</span>
-                <a href="{{ event.url }}">{{ event.title }}</a>
+                <a href="{{ event.url }}" target="_blank">{{ event.title }}</a>
                 {% if event.date and event.title %} – {% endif %}                
                 {{ event.date | date: '%b %-d, %Y' }} 
             </em>
@@ -24,7 +24,7 @@ description: Talk materials and links.
 		<p>{{ talk.description }}</p>
 		<ul class="section-content-links">
 			{% for link in talk.links %}
-			<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+			<li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
 			{% endfor %}
 		</ul>
         

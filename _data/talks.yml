@@ -24,6 +24,13 @@
     - title: Sydney JVM Community Meetup
       date: 2016-09-14
       url: http://www.meetup.com/Sydney-JVM-Community/events/233465115/
+  
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/1BJjqBPELuWsie991-GRZonx0P2Ny4MDhfTewOFIhvqc
+    
+    - title: Source
+      url: https://github.com/mgouline/gradle-kotlin-example
 
 - title: "Asynchronous Vert.x Applications in Kotlin"
   anchor: asynchronous-vertx-applications-in-kotlin

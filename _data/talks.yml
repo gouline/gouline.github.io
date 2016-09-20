@@ -16,7 +16,7 @@
   
   links:
     - title: Slides (Demo)
-    - url: https://docs.google.com/presentation/d/1E28AFsW3U0Mf7P3JkEsq5r2lBNyw5IRBNez5Ow1Zz2M
+      url: https://docs.google.com/presentation/d/1E28AFsW3U0Mf7P3JkEsq5r2lBNyw5IRBNez5Ow1Zz2M
 
 - title: "Practical Guide to Gradle with Kotlin"
   anchor: practical-guide-to-gradle-with-kotlin

@@ -15,8 +15,14 @@
         url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/233409117/
   
   links:
-    - title: Slides (Demo)
+    - title: Slides - Conference
+      url: https://docs.google.com/presentation/d/1mqj6FM2ccPD0iGFOczibz_ULTw-B7O9Fq9JjryYxeh0
+    
+    - title: Slides - Meetup
       url: https://docs.google.com/presentation/d/1E28AFsW3U0Mf7P3JkEsq5r2lBNyw5IRBNez5Ow1Zz2M
+    
+    - title: Source
+      url: https://github.com/mgouline/android-samples/tree/master/kotlin-demo
 
 - title: "Practical Guide to Gradle with Kotlin"
   anchor: practical-guide-to-gradle-with-kotlin

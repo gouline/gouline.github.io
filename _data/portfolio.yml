@@ -1,3 +1,23 @@
+- title: StrataBoss
+  anchor: strataboss
+  description: >
+    StrataBoss app allows you to quickly identify who is responsible for repairs 
+    of the defects or problems and maintenance of your strata unit.
+    <br/><br/>
+    My involvement spanned the complete design, architecture and implementation 
+    of both Android and iOS versions of the app.
+  company:
+    name: Wylde Solutions
+    url: http://wyldesolutions.com/
+  date: 2016
+  links:
+    - title: Google Play
+      url: https://play.google.com/store/apps/details?id=au.com.strataboss
+    
+    - title: App Store
+      url: https://itunes.apple.com/us/app/strataboss/id1164902456?mt=8
+  screenshot_url: strataboss.png
+
 - title: Safedome
   anchor: safedome
   description: >

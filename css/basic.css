@@ -202,12 +202,12 @@ ul#header-nav .icons a {
 
 .section-content ul.section-content-links li {
   display: inline;
-  margin-right: 5px;
+  margin-right: 2px;
 }
 
 .section-content ul.section-content-links li a {
   display: inline;
-  padding: 6px 12px 6px 12px;
+  padding: 5px 8px 5px 8px;
   background: #444;
   color: #fff;
   text-decoration: none;

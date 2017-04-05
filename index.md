@@ -1,13 +1,16 @@
 ---
 layout: post
+id: home
 title: Home
-description: Talk materials, portfolio and links for Gouline.
+description: Portfolio, talk materials and links.
 ---
 
-## Welcome!
+# Hello :)
 
-Presentation materials and project portfolio are located on this site and are
-accessible from the the navigation menu above. For any other material, refer to 
-the blog and/or feel free to get in touch via my social media accounts. 
+My name is Mike and I'm a software engineer.
 
-*-Mike*
+For a non-exhaustive list of my work, past and present, go to *Portfolio*.
+
+If you're here because you watched one of my talks and need the materials, go to *Talks*.
+
+For anything else, including contact details and other miscellanea, refer to my blog and social media accounts. 

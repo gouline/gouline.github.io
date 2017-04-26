@@ -15,7 +15,7 @@ description: Talk materials and links.
         </h2>
         {% for event in talk.events %}
             <em>
-                <span class="upcoming-flag" date="{{ event.date }}" style="display:none;">Upcoming:</span>
+                <span class="upcoming-flag" date="{{ event.date | date: "%s" }}" style="display:none;">Upcoming:</span>
                 <a href="{{ event.url }}" target="_blank">{{ event.title }}</a>
                 {% if event.date and event.title %} – {% endif %}                
                 {{ event.date | date: '%b %-d, %Y' }} 
@@ -35,20 +35,14 @@ description: Talk materials and links.
 
 <script>
 
-function strToDate(str) {
-    var tokens = str.split("-");
-    if (tokens.length == 3) {
-        return new Date(tokens[0], tokens[1] - 1, tokens[2]);
-    } else {
-        return new Date(0, 0, 0);
-    }
-}
-
 $(document).ready(function() {
     $(".upcoming-flag").each(function(index, elem) {
-        var eventDate = strToDate($(elem).attr('date'));
-        eventDate.setDate(eventDate.getDate() + 1);
-        $(elem).toggle(eventDate > new Date());
+        var rawDate = parseInt($(elem).attr('date'))
+        if (!isNaN(rawDate)) {
+            var date = new Date(0);
+            date.setSeconds(rawDate);
+            $(elem).toggle(date > new Date());
+        }
     });
 })
 

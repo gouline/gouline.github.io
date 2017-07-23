@@ -16,9 +16,7 @@
 
 # Build settings
 markdown: kramdown
-baseurl: ""
-url: "https://gouline.net"
-# url: "http://127.0.0.1:4000"
+baseurl: "/"
 
 # Content
 title: "Mike Gouline"

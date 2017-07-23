@@ -16,7 +16,7 @@
 
 # Build settings
 markdown: kramdown
-baseurl: "/"
+baseurl: ""
 
 # Content
 title: "Mike Gouline"

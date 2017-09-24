@@ -6,7 +6,7 @@
     <br/><br/>
     My involvement spanned the complete design, architecture and implementation 
     of both Android and iOS versions of the app.
-  company:
+  client:
     name: Wylde Solutions
     url: http://wyldesolutions.com/
   date: 2016 – present
@@ -28,7 +28,7 @@
     In addition to the technical implementation, my duties included consulting on 
     the better ways to convert the iOS design to Android best practices and building 
     various internal web services.
-  company:
+  client:
     name: Maxwell Forest
     url: http://maxwellforest.com/
   date: 2015 – 2016
@@ -47,7 +47,7 @@
     As the sole Android developer on the project at the time, my 
     responsibilities included delivering the app on tight deadlines as well as 
     consulting on the appropriate UX practices.
-  company:
+  client:
     name: CoinJar
     url: https://www.coinjar.com/
   date: 2014 – 2015
@@ -64,7 +64,7 @@
     The second version of the app that I delivered was a complete rewrite, which, in addition
     to containing new features, also introduced modern best practices and platform-recommended 
     tooling to the project.
-  company:
+  client:
     name: Safe Mate Australia
     url: https://www.safemate-australia.com.au/
   date: 2015
@@ -80,7 +80,10 @@
     in a team of two (part of Vivant), the app was delivered from scratch in a short
     amount of time and following the material design guidelines, dramatically improved 
     the user rating for the client.
-  company:
+  client:
+    name: CarsGuide
+    url: https://www.carsguide.com.au/
+  contractor:
     name: Vivant
     url: https://www.vivant.com.au/
   date: 2015
@@ -99,7 +102,10 @@
     Working with the original author of the Android app and teams of varying size over 
     the 3 years, my function varied from minor bug fixes to leading the whole team through a 
     major redesign.
-  company:
+  client:
+    name: Foxtel
+    url: https://www.foxtel.com.au/
+  contractor:
     name: Valtech Australia
     label: formerly Neon Stingray
     url: https://www.valtech.com/services/i/
@@ -126,7 +132,10 @@
     two complete redesigns of the app.
     <br/><br/>
     Songl was completely shut down in 2014.
-  company:
+  client:
+    name: Sony Music Australia
+    url: http://www.sonymusic.com.au/
+  contractor:
     name: Valtech Australia
     label: formerly Neon Stingray
     url: https://www.valtech.com/services/i/
@@ -143,7 +152,7 @@
     part of the product incubator at PwC Australia, I led the mobile team working on 
     AskU iOS app (as well as other products) while remaining the sole developer on the 
     Android app.
-  company:
+  client:
     name: PwC Digital Australia
     url: https://www.digitalpulse.pwc.com.au/
   date: 2013 – 2014

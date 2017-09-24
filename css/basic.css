@@ -228,13 +228,19 @@ ul#header-nav .icons a {
   font-weight: bold; 
 }
 
-img.section-thumbnail {
-  padding: 55px 12px 65px 12px;
+.section-thumbnail {
   width: 236px;
   height: 420px;
+  padding: 55px 12px 65px 12px;
   background: #222;
   border-radius: 30px;
   border: 2px solid #666;
+}
+
+.section-thumbnail img {
+  width: 100%;
+  height: 100%;
+  background: #111;
 }
 
 .clear:after {
@@ -314,7 +320,7 @@ img.section-thumbnail {
     margin-bottom: 8px;
   }
 
-  img.section-thumbnail {
+  .section-thumbnail {
     float: none;
     margin: 20px 0 0 20px;
   }
@@ -391,7 +397,7 @@ img.section-thumbnail {
     margin-bottom: 0px;
   }
   
-  img.section-thumbnail {
+  .section-thumbnail {
     float: right;
     margin: 20px 20px 20px 40px;
   }

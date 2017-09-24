@@ -9,7 +9,9 @@ description: Portfolio of current and past projects.
 <div class="section clear">
     <a name="{{ portfolio.anchor }}"></a>
 	<div>
-		<img src="{{ site.baseurl }}/assets/portfolio/{{ portfolio.screenshot_url }}" class="section-thumbnail"/>
+        <div class="section-thumbnail">
+            <img src="{{ site.baseurl }}/assets/portfolio/{{ portfolio.screenshot_url }}"/>
+        </div>
 	</div>
 	<div class="section-content">
 		<h2>
@@ -20,11 +22,20 @@ description: Portfolio of current and past projects.
 		<ul class="portfolio-list">
 			<li>
 				<b>Client:</b>
-				<a href="{{ portfolio.company.url }}" target="_blank">
-					{{ portfolio.company.name }}
+				<a href="{{ portfolio.client.url }}" target="_blank">
+					{{ portfolio.client.name }}
 				</a>
-                {% if portfolio.company.label %} – {{ portfolio.company.label }}{% endif %}
-			</li>			
+                {% if portfolio.client.label %} – {{ portfolio.client.label }}{% endif %}
+			</li>
+            {% if portfolio.contractor %}
+            <li>
+                <b>Contractor:</b>
+				<a href="{{ portfolio.contractor.url }}" target="_blank">
+					{{ portfolio.contractor.name }}
+				</a>
+                {% if portfolio.contractor.label %} – {{ portfolio.contractor.label }}{% endif %}
+            </li>
+            {% endif %}
 			<li>
 				<b>Available:</b>
 				{% for l in portfolio.links %}{% if forloop.index > 1 %}, {% endif %}{% if l.url %}<a href="{{ l.url }}" target="_blank">{% endif %}{{ l.title }}{% if l.url %}</a>{% endif %}{% if l.label %} ({{ l.label }}){% endif %}{% endfor %}

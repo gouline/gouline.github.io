@@ -158,5 +158,8 @@
       url: https://kotlinconf.com/
 
   links:
+    - title: Video
+      url: https://www.youtube.com/watch?list=PLQ176FUIyIUY6UK1cgVsbdPYA3X5WLam5&v=ihdEjDoXOgc
+    
     - title: Slides
       url: ./materials/2017-11-02/kotlin-ycbsy.pdf

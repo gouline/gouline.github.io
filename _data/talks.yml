@@ -163,3 +163,18 @@
     
     - title: Slides
       url: https://drive.google.com/file/d/1MuGWh83WH1r4oXOTpB1SQblgN_y8Z7tC
+
+- title: "KotlinConf 2017 Recap"
+  anchor: kotlinconf-2017-recap
+  description: >
+    Summary of the better talks, the more interesting themes, some conversations with other 
+    Kotliners and overall impressions about the first ever Kotlin conference in San Francisco. 
+    Think of it as your guide to what recorded talks to watch first.
+  events:
+    - title: Sydney Kotlin UG Meetup
+      date: 2017-11-29T18:30:00+10
+      url: https://sydkotlin.space/#meetup-november-2017
+
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/1KAX68C8LF3DF7ORSTz9Rh9Y0CmftJwQr4O5xhShjSxQ

@@ -19,6 +19,11 @@ description: Portfolio of current and past projects.
             <a href="#{{ portfolio.anchor }}" class="section-anchor">#</a>
         </h2>
 		<p>{{ portfolio.description }}</p>
+		{% if portfolio.involvement %}
+		<p>
+			<b>My involvement:</b> {{ portfolio.involvement }}</p>
+		</p>
+		{% endif %}
 		<ul class="portfolio-list">
 			<li>
 				<b>Client:</b>

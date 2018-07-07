@@ -1,11 +1,30 @@
+- title: Nucleus Smart
+  anchor: nucleus-smart
+  description: >
+    Nucleus® Smart App is a handy way for cochlear implant recipents to control their
+    Nucleus 7 sound processors with their Android device.
+  involvement: >
+    As a tech lead (and the first Android engineer in the team), I architected and created 
+    the framework for the app, that was already available for iOS, and then built out and 
+    lead the team of engineers that helped complete the first major version to be approved 
+    for the app store.
+  client:
+    name: Cochlear
+    url: https://cochlear.com/
+  date: 2016 - 2018
+  links:
+    - title: Google Play
+      url: https://play.google.com/store/apps/details?id=com.cochlear.clientremote
+  screenshot_url: nucleussmart.png
+
 - title: StrataBoss
   anchor: strataboss
   description: >
     StrataBoss app allows you to quickly identify who is responsible for repairs 
     of the defects or problems and maintenance of your strata unit.
-    <br/><br/>
-    My involvement spanned the complete design, architecture and implementation 
-    of both Android and iOS versions of the app.
+  involvement: >
+    Complete technical design, architecture and implementation of both Android 
+    and iOS versions of the app.
   client:
     name: Wylde Solutions
     url: http://wyldesolutions.com/
@@ -21,13 +40,12 @@
 - title: Safedome
   anchor: safedome
   description: >
-    Safedome is the new way to keep your valuables and identity safe 24/7. Having 
-    completed the iPhone app internally, Maxwell Forest engaged me to build out the 
-    Android app from scratch. 
-    <br/><br/>
-    In addition to the technical implementation, my duties included consulting on 
-    the better ways to convert the iOS design to Android best practices and building 
-    various internal web services.
+    Safedome is the new way to keep your valuables and identity safe 24/7.
+  involvement: >
+    Having completed the iPhone app internally, Maxwell Forest engaged me to build 
+    out the Android app from scratch. In addition to the technical implementation, my 
+    duties included consulting on the better ways to convert the iOS design to Android 
+    best practices and building various internal web services for it.
   client:
     name: Maxwell Forest
     url: http://maxwellforest.com/
@@ -43,7 +61,7 @@
     CoinJar is a simple everyday bitcoin payments app. My involvement was 
     finishing the product after the initial framework and basic features were put 
     in place. 
-    <br/><br/>
+  involvement: >
     As the sole Android developer on the project at the time, my 
     responsibilities included delivering the app on tight deadlines as well as 
     consulting on the appropriate UX practices.
@@ -61,6 +79,7 @@
   description: >
     SafeMate is an app designed to help first responders with identifying the
     rescuee by scanning their NFC-enabled wristband and providing their medical records.
+  involvement: >
     The second version of the app that I delivered was a complete rewrite, which, in addition
     to containing new features, also introduced modern best practices and platform-recommended 
     tooling to the project.
@@ -76,9 +95,10 @@
 - title: CarsGuide.com.au
   anchor: carsguide
   description: >
-    CarsGuide.com.au is an online service for selling new and used cars. Working
-    in a team of two (part of Vivant), the app was delivered from scratch in a short
-    amount of time and following the material design guidelines, dramatically improved 
+    CarsGuide.com.au is an online service for selling new and used cars. 
+  involvement: >
+    Working in a team of two (part of Vivant), the app was delivered from scratch in a short
+    amount of time and following the material design guidelines, dramatically improving 
     the user rating for the client.
   client:
     name: CarsGuide
@@ -98,7 +118,7 @@
     Foxtel Guide is the TV schedule app for Foxtel subscribers designed for checking
     detailed information about the programming, setting reminders and remote recording 
     while away from the set-top box.
-    <br/><br/>
+  involvement: >
     Working with the original author of the Android app and teams of varying size over 
     the 3 years, my function varied from minor bug fixes to leading the whole team through a 
     major redesign.
@@ -126,12 +146,13 @@
 - title: Songl
   anchor: songl
   description: >
-    Songl was an Australian music streaming service. My responsibilities on the app
-    included many aspects of development, from the user interface of the music player 
-    to the background service providing the actual playback functionality, all through 
-    two complete redesigns of the app.
+    Songl was an Australian music streaming service.
     <br/><br/>
-    Songl was completely shut down in 2014.
+    <i>Note:</i> Songl was completely shut down in 2014.
+  involvement: >
+    Responsibilities included many aspects of development, from the user interface of 
+    the music player to the background service providing the actual playback 
+    functionality, all through two complete redesigns of the app.
   client:
     name: Sony Music Australia
     url: http://www.sonymusic.com.au/
@@ -148,10 +169,11 @@
   anchor: asku
   description: >
     AskU was a charity-focused app that allowed users to exchange their time taking
-    consumer surveys for donations to their preferred non-profit organisations. Being a 
-    part of the product incubator at PwC Australia, I led the mobile team working on 
-    AskU iOS app (as well as other products) while remaining the sole developer on the 
-    Android app.
+    consumer surveys for donations to their preferred non-profit organisations. 
+  involvement: >
+    Being a part of the product incubator at PwC Australia, I led the mobile team 
+    working on AskU iOS app (as well as other products) while remaining the sole 
+    developer on the Android app.
   client:
     name: PwC Digital Australia
     url: https://www.digitalpulse.pwc.com.au/

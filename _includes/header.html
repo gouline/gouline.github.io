@@ -10,16 +10,11 @@
                 <p class="title-minor">{{ site.title }}&nbsp;</p>
                 <p class="title-major">{{ page.title }}&nbsp;</p>
             	<ul id="header-nav" class="header-section">
-            		<li><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li class="header-nav-sep">•</li>
-            		<li><a href="{{ site.baseurl }}/talks">Talks</a></li>
-                    <li class="header-nav-sep">•</li>
-            		<li><a href="{{ site.baseurl }}/portfolio">Portfolio</a></li>
-                    <li class="header-nav-sep">•</li>
+            		<li><a href="{{ site.baseurl }}/" class="{% if page.id == "home" %}selected{% endif %}">Home</a></li>
+            		<li><a href="{{ site.baseurl }}/talks" class="{% if page.id == "talks" %}selected{% endif %}">Talks</a></li>
+            		<li><a href="{{ site.baseurl }}/portfolio" class="{% if page.id == "portfolio" %}selected{% endif %}">Portfolio</a></li>
                     <li><a href="https://blog.gouline.net/">Blog</a></li>
-                    <li class="header-nav-sep">•</li>
             		<li><a href="http://photo.gouline.net/">Photo</a></li>
-                    <li class="header-nav-sep">•</li>
                     <li class="icons">
                         <a href="https://github.com/{{ site.social_github }}" title="GitHub" target="_blank">
                             <img src="{{ site.baseurl }}/assets/images/nav_github.png"/>

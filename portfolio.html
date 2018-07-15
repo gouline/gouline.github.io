@@ -8,7 +8,7 @@ description: Portfolio of current and past projects.
 {% for portfolio in site.data.portfolio %}
 <div class="section clear">
 	<a name="{{ portfolio.anchor }}"></a>
-	<div>
+	<div class="section-thumbnail-container">
 		<div class="section-thumbnail">
 			<img src="{{ site.baseurl }}/assets/portfolio/{{ portfolio.screenshot_url }}"/>
 		</div>

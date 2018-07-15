@@ -8,28 +8,25 @@ description: Talk materials and links.
 {% for talk in site.data.talks reversed %}
 <div class="section clear">
     <a name="{{ talk.anchor }}"></a>
-	<div class="section-content">
-		<h2>
+    <div class="section-content">
+        <h2>
             {{ talk.title }}
             <a href="#{{ talk.anchor }}" class="section-anchor">#</a>
         </h2>
         {% for event in talk.events %}
-            <em>
-                <span class="upcoming-flag" date="{{ event.date | date: "%s" }}" style="display:none;">Upcoming:</span>
-                <a href="{{ event.url }}" target="_blank">{{ event.title }}</a>
-                {% if event.date and event.title %} – {% endif %}                
-                {{ event.date | date: '%b %-d, %Y' }} 
-            </em>
-            <br/>
+        <span class="upcoming-flag" date="{{ event.date | date: "%s" }}" style="display:none;">Upcoming:</span>
+        <a href="{{ event.url }}" target="_blank">{{ event.title }}</a>
+        {% if event.date and event.title %} – {% endif %}                
+        {{ event.date | date: '%b %-d, %Y' }} 
+        <br/>
         {% endfor %}
-		<p>{{ talk.description }}</p>
-		<ul class="section-content-links">
-			{% for link in talk.links %}
-			<li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
-			{% endfor %}
-		</ul>
-        
-	</div>
+        <p>{{ talk.description }}</p>
+        <ul class="section-content-links">
+            {% for link in talk.links %}
+            <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
 {% endfor %}
 

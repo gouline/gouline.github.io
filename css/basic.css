@@ -59,7 +59,7 @@ hr {
 
 #header {
   padding-top: 20px;
-  padding-bottom: 18px;
+  padding-bottom: 15px;
   background-color: #071929;
   border-bottom: 1px solid #273949;
 }
@@ -75,7 +75,7 @@ hr {
 }
 
 #header-logo {
-  margin: 20px 20px 20px 30px;
+  margin: 0 15px 0 25px;
   width: 90px;
   height: 90px;
 }
@@ -104,13 +104,13 @@ hr {
 
 ul#header-nav {
   list-style-type: none;
-  margin: 0;
+  margin: 12px 0 0 0;
   padding: 0;
   overflow: hidden;
 }
 
 ul#header-nav li {
-  padding: 0 8px 10px 0;
+  padding: 0 10px 10px 0;
   color: #fff;
   font-size: 16px;
 }

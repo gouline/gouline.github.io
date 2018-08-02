@@ -229,6 +229,11 @@ ul#header-nav .icons a {
   font-weight: bold; 
 }
 
+.section-content img {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
 .section-thumbnail {
   width: 236px;
   height: 420px;

@@ -1,33 +1,30 @@
 <div id="header">
     <div id="header-content" class="fixed-width">
         <div id="header-inline">
-            <span class="header-section">
-                <a href="{{ site.baseurl }}/">
+            <span id="header-title" class="header-section">
+                <a href="{{ site.baseurl }}/" style="display: flex; align-items:center;">
                     <img id="header-logo" src="{{ site.baseurl }}/assets/images/logo_medium.png"/>
+                    <span>{{ site.title }}</span>
                 </a>
             </span>
-            <span id="header-title" class="header-section">
-                <p class="title-minor">{{ site.title }}&nbsp;</p>
-                <p class="title-major">{{ page.title }}&nbsp;</p>
-            	<ul id="header-nav" class="header-section">
-            		<li><a href="{{ site.baseurl }}/" class="{% if page.id == "home" %}selected{% endif %}">Home</a></li>
-            		<li><a href="{{ site.baseurl }}/talks" class="{% if page.id == "talks" %}selected{% endif %}">Talks</a></li>
-            		<li><a href="{{ site.baseurl }}/portfolio" class="{% if page.id == "portfolio" %}selected{% endif %}">Portfolio</a></li>
-                    <li><a href="https://blog.gouline.net/">Blog</a></li>
-            		<li><a href="http://photo.gouline.net/">Photo</a></li>
-                    <li class="icons">
-                        <a href="https://github.com/{{ site.social_github }}" title="GitHub" target="_blank">
-                            <img src="{{ site.baseurl }}/assets/images/nav_github.png"/>
-                        </a>
-                        <a href="https://twitter.com/{{ site.social_twitter }}" title="Twitter" target="_blank">
-                            <img src="{{ site.baseurl }}/assets/images/nav_twitter.png"/>
-                        </a>
-                        <a href="https://500px.com/{{ site.social_500px }}" title="500px" target="_blank">
-                            <img src="{{ site.baseurl }}/assets/images/nav_500px.png"/>
-                        </a>
-                    </li>
-            	</ul>
-            </span>
+            <ul id="header-nav" class="header-section">
+                <li><a href="{{ site.baseurl }}/" class="{% if page.id == "home" %}selected{% endif %}">Home</a></li>
+                <li><a href="{{ site.baseurl }}/talks" class="{% if page.id == "talks" %}selected{% endif %}">Talks</a></li>
+                <li><a href="{{ site.baseurl }}/portfolio" class="{% if page.id == "portfolio" %}selected{% endif %}">Portfolio</a></li>
+                <li><a href="https://blog.gouline.net/">Blog</a></li>
+                <li><a href="http://photo.gouline.net/">Photo</a></li>
+                <li class="icons">
+                    <a href="https://github.com/{{ site.social_github }}" title="GitHub" target="_blank">
+                        <img src="{{ site.baseurl }}/assets/images/nav_github.png"/>
+                    </a>
+                    <a href="https://twitter.com/{{ site.social_twitter }}" title="Twitter" target="_blank">
+                        <img src="{{ site.baseurl }}/assets/images/nav_twitter.png"/>
+                    </a>
+                    <a href="https://500px.com/{{ site.social_500px }}" title="500px" target="_blank">
+                        <img src="{{ site.baseurl }}/assets/images/nav_500px.png"/>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

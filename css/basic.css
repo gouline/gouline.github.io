@@ -7,7 +7,6 @@ html {
 
 body {
   min-height: 100%;
-  background-color: #172939;
   color: #eee;
 }
 
@@ -58,10 +57,7 @@ hr {
 /* Header */
 
 #header {
-  padding-top: 20px;
-  padding-bottom: 15px;
-  background-color: #071929;
-  border-bottom: 1px solid #273949;
+  padding: 30px 10px 0 10px;
 }
 
 #header-inline {
@@ -70,59 +66,47 @@ hr {
 }
 
 #header-inline .header-section {
-  display: inline-block;
   vertical-align: middle;
 }
 
-#header-logo {
-  margin: 0 15px 0 25px;
-  width: 90px;
-  height: 90px;
-}
-
-#header-title {
+#header-title a,
+#header-title a:hover {
+  font-weight: bold;
   color: #fff;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-#header-title .title-minor {
-  margin: 0;
-  font-size: 15px;
-  line-height: 8px;
-  margin-bottom: 4px;
-}
-
-#header-title .title-minor:first-child {
-  margin-top: 10px;
-}
-
-#header-title .title-major {
-  margin: 0;
-  font-size: 35px;
-  font-weight: bold;
+#header-logo {
+  margin-right: 7px;
+  width: 45px;
+  height: 45px;
 }
 
 ul#header-nav {
   list-style-type: none;
-  margin: 12px 0 0 0;
+  margin: 0 0 0 20px;
   padding: 0;
   overflow: hidden;
 }
 
-ul#header-nav li {
-  padding: 0 10px 10px 0;
+ul#header-nav li a {
+  margin-right: 10px;
+  padding: 5px 0 5px 0;
   color: #fff;
   font-size: 16px;
+  vertical-align: middle;
 }
 
 ul#header-nav a {
   display: block;
-  opacity: 0.7;
+  opacity: 0.5;
   color: #fff;
   font-size: 16px;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: .03em;
+  border-radius: 5px;
 }
 
 ul#header-nav a:hover,
@@ -131,9 +115,18 @@ ul#header-nav a.selected {
   text-decoration: none;
 }
 
+ul#header-nav a.selected {
+  opacity: 0.8;
+}
+
+ul#header-nav a:hover {
+  opacity: 1.0;
+}
+
 ul#header-nav .icons a {
   display: inline;
-  margin-right: 7px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 /* Footer */
@@ -167,7 +160,6 @@ ul#header-nav .icons a {
 .section {
   display: block;
   position: relative;
-  margin: 20px 0 20px 0;
 }
 
 .section:first-child {
@@ -182,7 +174,6 @@ ul#header-nav .icons a {
 
 .section-content {
   display: block; 
-  padding: 15px 25px 15px 25px;
 }
 
 .section-content a {
@@ -214,7 +205,7 @@ ul#header-nav .icons a {
 .section-content ul.section-content-links li a {
   display: inline;
   padding: 5px 8px 5px 8px;
-  background-color: #071929;
+  background-color: #172939;
   color: #fff;
   text-decoration: none;
   white-space: nowrap;
@@ -244,7 +235,7 @@ ul#header-nav .icons a {
   padding: 50px 8px 50px 8px;
   background-color: #222;
   border-radius: 28px;
-  border: 3px solid #071929;
+  border: 3px solid #001222;
 }
 
 .section-thumbnail img {
@@ -259,105 +250,22 @@ ul#header-nav .icons a {
   display: table;
 }
 
-/* Phone-only */
-@media only screen and (min-width: 100px) and (max-width: 800px) {
-  .fixed-width {
-    max-width: 480px!important;
-  }
-  
-  #header-content {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  #header-logo {
-    display: none;
-  }
-  
-  #header-title {
-    padding: 0 20px 0 20px;
-  }
-  
-  ul#header-nav {
-    display: block;
-    padding-top: 15px;
-  }
-  
-  ul#header-nav li {
-    float: clear;
-  }
-  
-  ul#header-nav li.header-nav-sep {
-    display: none;
-  }
-  
-  ul#header-nav .icons {
-    margin-top: 10px;
-  }
-  
-  ul#header-nav .icons a {
-    margin-right: 13px;
-  }
-  
-  ul#header-nav .icons a img {
-    width: 20px; 
-    height: 20px;
-  }
-  
-  #content h1 {
-    font-size: 26px;
-  }
-
-  #content h2 {
-    font-size: 20px;
-  }
-  
-  #content h3 {
-    font-size: 18px;
-  }
-  
-  #content p, #content ul {
-    font-size: 16px;
-  }
-
-  .section-content ul {
-    margin-top: 30px;
-  }
-
-  .section-content ul li {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-
-  .section-thumbnail-container {
-    margin-bottom: 15px;
-  }
-
-  .section-thumbnail {
-    float: none;
-    margin: 20px 0 0 20px;
-  }
-}
-
 /* Desktop-only */
 @media only screen and (min-width: 800px) {
   .fixed-width {
     max-width: 900px!important;
   }
-  
-  #header-content {
-    padding-left: 0;
-    padding-right: 0;
+
+  #header {
+    margin-top: 20px;
+    margin-bottom: 15px;
   }
-  
-  #header-logo {
+
+  #header-inline .header-section {
     display: inline-block;
+    margin-left: 25px;
   }
-  
-  #header-title {
-    padding: 0;
-  }
-  
+    
   ul#header-nav {
     display: inline-block;
     padding-top: 0;
@@ -371,9 +279,10 @@ ul#header-nav .icons a {
   ul#header-nav li.header-nav-sep {
     display: block;
   }
-  
+
   ul#header-nav .icons {
-    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   
   ul#header-nav .icons a {
@@ -401,6 +310,14 @@ ul#header-nav .icons a {
     font-size: 16px;
   }
 
+  .section {
+    margin: 20px 0 20px 0;
+  }
+
+  .section-content {
+    padding: 15px 25px 15px 25px;
+  }
+
   .section-content ul {
     margin-top: 20px;
   }
@@ -417,5 +334,93 @@ ul#header-nav .icons a {
   .section-thumbnail {
     float: right;
     margin: 20px 20px 20px 40px;
+  }
+}
+
+/* Phone-only */
+@media only screen and (min-width: 100px) and (max-width: 800px) {
+  .fixed-width {
+    max-width: 480px!important;
+  }
+
+  #header {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #header-inline .header-section {
+    display: block;
+    margin-left: 10px;
+  }
+  
+  ul#header-nav {
+    display: block;
+    padding-top: 5px;
+  }
+  
+  ul#header-nav li {
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  
+  ul#header-nav li.header-nav-sep {
+    display: none;
+  }
+
+  ul#header-nav .icons {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  ul#header-nav .icons a {
+    margin-right: 13px;
+  }
+  
+  ul#header-nav .icons a img {
+    width: 20px; 
+    height: 20px;
+  }
+  
+  #content h1 {
+    font-size: 26px;
+  }
+
+  #content h2 {
+    font-size: 20px;
+  }
+  
+  #content h3 {
+    font-size: 18px;
+  }
+  
+  #content p, #content ul {
+    font-size: 16px;
+  }
+
+  .section {
+    margin: 10px 0 10px 0;
+  }
+
+  .section-content {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .section-content ul {
+    margin-top: 30px;
+  }
+
+  .section-content ul li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .section-thumbnail-container {
+    margin-bottom: 15px;
+  }
+
+  .section-thumbnail {
+    float: none;
+    margin: 20px 0 0 10px;
   }
 }

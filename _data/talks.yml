@@ -178,3 +178,19 @@
   links:
     - title: Slides
       url: https://docs.google.com/presentation/d/1KAX68C8LF3DF7ORSTz9Rh9Y0CmftJwQr4O5xhShjSxQ
+
+- title: "Data Science and Other Buzzwords"
+  anchor: data-science-and-other-buzzwords
+  description: >
+    Kotlin continues to conquer new areas of software development, but some are still firmly held by one or two languages. 
+    Data science, statistical analysis and machine learning are largely Python domains, but with many performance-focused 
+    implementations based on the JVM, Kotlin has a good chance to break into this scene too. The intention of this talk is 
+    to give a shallow overview of what you can do today.
+  events:
+    - title: Sydney Kotlin UG Meetup
+      date: 2018-08-12T18:30:00+10
+      url: https://sydkotlin.space/#meetup-august-2018
+
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/15O_WyB-ffuJEdtlkoXJKQcnr_2Dsi-SmNQdHYAGfwP8

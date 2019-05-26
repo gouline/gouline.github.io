@@ -20,7 +20,7 @@
     - title: Source
       url: https://github.com/mgouline/android-samples/tree/master/kotlin-demo
 
-- title: "Dagger 2: Even sharper, less square"
+- title: "Dagger 2: Even Sharper, Less Square"
   anchor: dagger-2-even-sharper-less-square
   description: >
     It was only a matter of time before version 2.0 of the well-known dependency injection library 
@@ -41,7 +41,7 @@
     - title: Source
       url: https://github.com/mgouline/android-samples/tree/master/dagger2-demo
 
-- title: "Kotlin, a year on"
+- title: "Kotlin, a Year on"
   anchor: kotlin-a-year-on
   description: >
     Revisit of last year's talk about Kotlin and its application in Android development. Summary 
@@ -56,7 +56,7 @@
     - title: Slides
       url: https://docs.google.com/presentation/d/1fM94OW7U6I_RSCKMsgTgZu2gVj5LQehSiKDBcFZE9Zw
 
-- title: "Kotlin production tales"
+- title: "Kotlin Production Tales"
   anchor: kotlin-production-tales
   description: >
     Kotlin has finally graduated to a release version and we have rewritten one of our production 
@@ -115,7 +115,7 @@
     - title: Source
       url: https://github.com/mgouline/gradle-kotlin-example
 
-- title: "Kotlin, The Pragmatic Language For Android"
+- title: "Kotlin, the Pragmatic Language For Android"
   anchor: kotlin-the-pragmatic-language-for-android
   description: >
     Kotlin, a relatively new programming language running on the JVM, has been making 
@@ -144,7 +144,7 @@
     - title: Source
       url: https://github.com/mgouline/android-samples/tree/master/kotlin-demo
 
-- title: "You can, but should you?"
+- title: "You Can, but Should You?"
   anchor: you-can-but-should-you
   description: >
     Kotlin provides a mountain of features that Java developers previously never had access 

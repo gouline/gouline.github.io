@@ -7,7 +7,7 @@ description: Portfolio, talk materials and links.
 
 # Greetings!
 
-My name is Mike and I'm a software engineer, founder of [Traversal Space](https://traversal.space/){:target="_blank"}, and organiser of [Sydney Kotlin UG](https://sydkotlin.space/){:target="_blank"}.
+My name is Mike and I'm a software engineer, founder of [Traversal Space](https://traversal.space/){:target="_blank"} and [SYDspace](https://sydspace.org/){:target="_blank"}.
 
 For a non-exhaustive list of my work, past and present, go to [Portfolio]({{ site.baseurl }}/portfolio).
 

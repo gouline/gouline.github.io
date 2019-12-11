@@ -9,8 +9,8 @@ description: Portfolio, talk materials and links.
 
 My name is Mike and I'm a software engineer, founder of [Traversal Space](https://traversal.space/){:target="_blank"} and [SYDspace](https://sydspace.org/){:target="_blank"}.
 
-For a non-exhaustive list of my work, past and present, go to [Portfolio]({{ site.baseurl }}/portfolio).
+For a non-exhaustive list of my work, past and present, go to [Portfolio]({{ site.rooturl }}/portfolio).
 
-If you're here because you watched one of my talks and need the materials, go to [Talks]({{ site.baseurl }}/talks).
+If you're here because you watched one of my talks and need the materials, go to [Talks]({{ site.rooturl }}/talks).
 
 For anything else, including contact details and other miscellanea, refer to my blog and social media accounts.

@@ -16,12 +16,6 @@
 
 # Build settings
 markdown: kramdown
-baseurl: ""
+rooturl: "https://mike.gouline.net"
 
-# Content
 title: "Mike Gouline"
-
-# Social
-social_github: "gouline"
-social_twitter: "mikestruct"
-social_500px: "nullplane"

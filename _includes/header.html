@@ -2,27 +2,27 @@
     <div id="header-content" class="fixed-width">
         <div id="header-inline">
             <span id="header-title" class="header-section">
-                <a href="{{ site.baseurl }}/" style="display: flex; align-items:center;">
-                    <img id="header-logo" src="{{ site.baseurl }}/assets/images/logo_medium.png"/>
+                <a href="{{ site.rooturl }}/" style="display: flex; align-items:center;">
+                    <img id="header-logo" src="{{ site.rooturl }}/assets/images/logo_medium.png"/>
                     <span>{{ site.title }}</span>
                 </a>
             </span>
             <ul id="header-nav" class="header-section">
-                <li><a href="{{ site.baseurl }}/" class="{% if page.id == "home" %}selected{% endif %}">Home</a></li>
-                <li><a href="{{ site.baseurl }}/talks" class="{% if page.id == "talks" %}selected{% endif %}">Talks</a></li>
-                <li><a href="{{ site.baseurl }}/portfolio" class="{% if page.id == "portfolio" %}selected{% endif %}">Portfolio</a></li>
-                <li><a href="https://blog.gouline.net/">Blog</a></li>
-                <li><a href="http://photo.gouline.net/">Photo</a></li>
+                {% for section in site.data.nav.sections %}
+                <li>
+                    {% if section.path %}
+                    <a href="{{ site.rooturl }}{{ section.path }}" class="{% if page.id == section.id %}selected{% endif %}">{{ section.title }}</a>
+                    {% else if section.url %}
+                    <li><a href="{{ section.url }}">{{ section.title }}</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
                 <li class="icons">
-                    <a href="https://github.com/{{ site.social_github }}" title="GitHub" target="_blank">
-                        <img src="{{ site.baseurl }}/assets/images/nav_github.png"/>
+                    {% for service in site.data.nav.services %}
+                    <a href="{{ service.url }}" title="{{ service.title }}" target="_blank">
+                        <img src="{{ site.rooturl }}/assets/images/nav_{{ service.type }}.png"/>
                     </a>
-                    <a href="https://twitter.com/{{ site.social_twitter }}" title="Twitter" target="_blank">
-                        <img src="{{ site.baseurl }}/assets/images/nav_twitter.png"/>
-                    </a>
-                    <a href="https://500px.com/{{ site.social_500px }}" title="500px" target="_blank">
-                        <img src="{{ site.baseurl }}/assets/images/nav_500px.png"/>
-                    </a>
+                    {% endfor %}
                 </li>
             </ul>
         </div>

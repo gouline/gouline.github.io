@@ -5,12 +5,10 @@ title: Home
 description: Portfolio, talk materials and links.
 ---
 
-# Greetings!
+# Hi, I'm Mike...
 
-My name is Mike and I'm a software engineer, founder of [Traversal Space](https://traversal.space/){:target="_blank"} and [SYDspace](https://sydspace.org/){:target="_blank"}.
+...a software engineer and founder of [Traversal.space](https://traversal.space/){:target="_blank"} and [SYDspace](https://sydspace.org/){:target="_blank"}.
 
-For a non-exhaustive list of my work, past and present, go to [Portfolio]({{ site.rooturl }}/portfolio).
+Looking for the slides and materials from one of my talks? Click [Talks]({{ site.rooturl }}/talks).
 
-If you're here because you watched one of my talks and need the materials, go to [Talks]({{ site.rooturl }}/talks).
-
-For anything else, including contact details and other miscellanea, refer to my blog and social media accounts.
+For a non-exhaustive list of my work, past and present, click [Portfolio]({{ site.rooturl }}/portfolio).

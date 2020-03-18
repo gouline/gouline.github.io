@@ -16,6 +16,4 @@
 
 # Build settings
 markdown: kramdown
-rooturl: "https://mike.gouline.net"
-
 title: "Mike Gouline"

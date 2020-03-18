@@ -2,25 +2,27 @@
     <div id="header-content" class="fixed-width">
         <div id="header-inline">
             <span id="header-title" class="header-section">
-                <a href="{{ site.rooturl }}/" style="display: flex; align-items:center;">
-                    <img id="header-logo" src="{{ site.rooturl }}/assets/images/logo_medium.png"/>
+                <a href="{{ '/' | relative_url }}" style="display: flex; align-items:center;">
+                    <img id="header-logo" src="{{ '/assets/images/logo_medium.png' | relative_url }}"/>
                     <span>{{ site.title }}</span>
                 </a>
             </span>
             <ul id="header-nav" class="header-section">
-                {% for section in site.data.nav.sections %}
+                {% for section in site.data.global.sections %}
                 <li>
                     {% if section.path %}
-                    <a href="{{ site.rooturl }}{{ section.path }}" class="{% if page.id == section.id %}selected{% endif %}">{{ section.title }}</a>
+                    <a href="{{ section.path | relative_url }}" class="{% if page.id == section.id %}selected{% endif %}">{{ section.title }}</a>
                     {% else if section.url %}
                     <li><a href="{{ section.url }}">{{ section.title }}</a>
                     {% endif %}
                 </li>
                 {% endfor %}
                 <li class="icons">
-                    {% for service in site.data.nav.services %}
-                    <a href="{{ service.url }}" title="{{ service.title }}" target="_blank">
-                        <img src="{{ site.rooturl }}/assets/images/nav_{{ service.type }}.png"/>
+                    {% for item in site.data.global.social %}
+                    {% assign type = item[0] %}
+                    {% assign service = item[1] %}
+                    <a href="{{ service.url }}" title="{{ service.title }}" {% if service.blank %}target="_blank"{% endif %}>
+                        <img src="{{ '/assets/images/nav_' | append: type | append: '.png' | relative_url }}"/>
                     </a>
                     {% endfor %}
                 </li>

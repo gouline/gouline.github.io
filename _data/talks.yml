@@ -18,7 +18,7 @@
       url: https://blog.gouline.net/2014/08/31/kotlin-the-swift-of-android/
     
     - title: Source
-      url: https://github.com/mgouline/android-samples/tree/master/kotlin-demo
+      url: https://github.com/gouline/android-samples/tree/master/kotlin-demo
 
 - title: "Dagger 2: Even Sharper, Less Square"
   anchor: dagger-2-even-sharper-less-square
@@ -39,7 +39,7 @@
       url: https://blog.gouline.net/2015/05/04/dagger-2-even-sharper-less-square/
     
     - title: Source
-      url: https://github.com/mgouline/android-samples/tree/master/dagger2-demo
+      url: https://github.com/gouline/android-samples/tree/master/dagger2-demo
 
 - title: "Kotlin, a Year on"
   anchor: kotlin-a-year-on
@@ -92,7 +92,7 @@
       url: https://docs.google.com/presentation/d/10cC6WJwu6G0a3ZMoFMoWl_slOHG2JDcswEOQj-5qwco
     
     - title: Source
-      url: https://github.com/mgouline/vertx-kotlin-example
+      url: https://github.com/gouline/vertx-kotlin-example
 
 - title: "Practical Guide to Gradle with Kotlin"
   anchor: practical-guide-to-gradle-with-kotlin
@@ -113,7 +113,7 @@
       url: https://docs.google.com/presentation/d/1BJjqBPELuWsie991-GRZonx0P2Ny4MDhfTewOFIhvqc
     
     - title: Source
-      url: https://github.com/mgouline/gradle-kotlin-example
+      url: https://github.com/gouline/gradle-kotlin-example
 
 - title: "Kotlin, the Pragmatic Language For Android"
   anchor: kotlin-the-pragmatic-language-for-android
@@ -142,7 +142,7 @@
       url: https://docs.google.com/presentation/d/1E28AFsW3U0Mf7P3JkEsq5r2lBNyw5IRBNez5Ow1Zz2M
     
     - title: Source
-      url: https://github.com/mgouline/android-samples/tree/master/kotlin-demo
+      url: https://github.com/gouline/android-samples/tree/master/kotlin-demo
 
 - title: "You Can, but Should You?"
   anchor: you-can-but-should-you
@@ -182,10 +182,11 @@
 - title: "Data Science and Other Buzzwords"
   anchor: data-science-and-other-buzzwords
   description: >
-    Kotlin continues to conquer new areas of software development, but some are still firmly held by one or two languages. 
-    Data science, statistical analysis and machine learning are largely Python domains, but with many performance-focused 
-    implementations based on the JVM, Kotlin has a good chance to break into this scene too. The intention of this talk is 
-    to give a shallow overview of what you can do today.
+    Kotlin continues to conquer new areas of software development, but some are still firmly held
+    by one or two languages. Data science, statistical analysis and machine learning are largely
+    Python domains, but with many performance-focused implementations based on the JVM, Kotlin has
+    a good chance to break into this scene too. The intention of this talk is to give a shallow
+    overview of what you can do today.
   events:
     - title: Sydney Kotlin UG Meetup
       date: 2018-08-12T18:30:00+10
@@ -196,4 +197,23 @@
       url: https://docs.google.com/presentation/d/15O_WyB-ffuJEdtlkoXJKQcnr_2Dsi-SmNQdHYAGfwP8
     
     - title: Source
-      url: https://github.com/mgouline/kotlin-data-demos
+      url: https://github.com/gouline/kotlin-data-demos
+
+- title: "Exporting dbt Schema to Metabase"
+  anchor: exporting-dbt-schema-to-metabase
+  description: >
+    Metabase, a brilliant open-source BI tool, allows you to define your data model on top of the
+    database schema, which includes descriptions, special types and table relationships. However,
+    updating everything manually is not repeatable and prone to errors, so I will demonstrate how
+    to export your existing dbt schema into Metabase automatically with a tool I created.
+  events:
+    - title: Sydney DBT Meetup
+      date: 2020-03-12T18:00:00+10
+      url: https://www.meetup.com/Sydney-DBT-Meetup/events/267106119/
+
+  links:
+    - title: Slides
+      url: https://docs.google.com/presentation/d/1rtwkE7Sd6G9Sd_61UCnAZ4TxRcMh7rA2VhGahORdtSI
+    
+    - title: Source
+      url: https://github.com/gouline/dbt-metabase

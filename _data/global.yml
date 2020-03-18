@@ -17,15 +17,18 @@ sections:
   - title: Photo
     url: http://photo.gouline.net
 
-services:
-  - title: GitHub
-    type: github
+social:
+  github:
+    title: GitHub
+    user: gouline
     url: https://github.com/gouline
-    blank: true
-  - title: Twitter
-    type: twitter
+
+  twitter:
+    title: Twitter
+    user: mikestruct
     url: https://twitter.com/mikestruct
-    blank: true
-  - title: 500px
-    type: 500px
+
+  500px:
+    title: 500px
+    user: nullplane 
     url: https://500px.com/nullplane

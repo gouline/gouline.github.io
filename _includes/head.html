@@ -9,27 +9,27 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="{{ page.title }} - {{ site.title }}"/>
+<meta property="og:title" content="{%if page.id != "home" %}{{ page.title }} :: {% endif %}{{ site.title }}"/>
 <meta property="og:description" content="{{ page.description }}"/>
 <meta property="og:url" content="{{ page.url | absolute_url }}"/>
-<meta property="og:image" content="{{ '/assets/images/logo_medium.png' | absolute_url }}"/>
+<meta property="og:image" content="{{ '/img/avatar.jpg' | absolute_url }}"/>
 
 <!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="{{ page.title }} - {{ site.title }}"/>
+<meta itemprop="name" content="{%if page.id != "home" %}{{ page.title }} :: {% endif %}{{ site.title }}"/>
 <meta itemprop="description" content="{{ page.description }}"/>
-<meta itemprop="image" content="{{ '/assets/images/logo_medium.png' | absolute_url }}"/>
+<meta itemprop="image" content="{{ '/img/avatar.jpg' | absolute_url }}"/>
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="{{ page.title }} - {{ site.title }}"/>
+<meta name="twitter:title" content="{%if page.id != "home" %}{{ page.title }} :: {% endif %}{{ site.title }}"/>
 <meta name="twitter:description" content="{{ page.description }}"/>
 <meta name="twitter:site" content="@{{ site.data.global.social.twitter.user }}"/>
 <meta name="twitter:creator" content="@{{ site.data.global.social.twitter.user }}"/>
-<meta name="twitter:image:src" content="{{ '/assets/images/logo_medium.png' | absolute_url }}"/>
+<meta name="twitter:image:src" content="{{ '/img/avatar.jpg' | absolute_url }}"/>
 
 <!-- Links -->
-<link href="{{ '/assets/images/favicon.png' | absolute_url }}" rel="shortcut icon" type="image/x-icon"/>
-<link href="{{ '/assets/images/favicon.png' | absolute_url }}" rel="apple-touch-icon" />
+<link href="{{ '/img/favicon.png' | absolute_url }}" rel="shortcut icon" type="image/x-icon" />
+<link href="{{ '/img/favicon.png' | absolute_url }}" rel="apple-touch-icon" />
 <link href="{{ '/css/basic.css' | relative_url }}" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Mono" rel="stylesheet"/>
 

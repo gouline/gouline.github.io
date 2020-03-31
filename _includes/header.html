@@ -3,7 +3,7 @@
         <div id="header-inline">
             <span id="header-title" class="header-section">
                 <a href="{{ '/' | relative_url }}" style="display: flex; align-items:center;">
-                    <img id="header-logo" src="{{ '/assets/images/logo_medium.png' | relative_url }}"/>
+                    <img id="header-logo" src="{{ '/img/logo_medium.png' | relative_url }}"/>
                     <span>{{ site.title }}</span>
                 </a>
             </span>
@@ -22,7 +22,7 @@
                     {% assign type = item[0] %}
                     {% assign service = item[1] %}
                     <a href="{{ service.url }}" title="{{ service.title }}" {% if service.blank %}target="_blank"{% endif %}>
-                        <img src="{{ '/assets/images/nav_' | append: type | append: '.png' | relative_url }}"/>
+                        <img src="{{ '/img/nav_' | append: type | append: '.png' | relative_url }}"/>
                     </a>
                     {% endfor %}
                 </li>

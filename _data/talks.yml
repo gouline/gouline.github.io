@@ -207,6 +207,10 @@
     updating everything manually is not repeatable and prone to errors, so I will demonstrate how
     to export your existing dbt schema into Metabase automatically with a tool I created.
   events:
+    - title: Sydney Data Engineering Meetup
+      date: 2020-03-26T18:00:00+10
+      url: https://www.meetup.com/Sydney-Data-Engineering-Meetup/events/269593772/
+
     - title: Sydney DBT Meetup
       date: 2020-03-12T18:00:00+10
       url: https://www.meetup.com/Sydney-DBT-Meetup/events/267106119/
@@ -217,3 +221,6 @@
     
     - title: Source
       url: https://github.com/gouline/dbt-metabase
+    
+    - title: Video
+      url: https://www.youtube.com/watch?v=LzaUjm68fMU

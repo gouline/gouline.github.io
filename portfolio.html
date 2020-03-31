@@ -18,7 +18,7 @@ description: Portfolio of current and past projects.
 	{% if portfolio.screenshot %}
 	<div class="section-thumbnail-container">
 		<div class="section-thumbnail section-thumbnail-{{ portfolio.screenshot.type }}">
-			{% assign screenshot_url = '/assets/portfolio/' | append: portfolio.screenshot.url %}
+			{% assign screenshot_url = '/img/portfolio/' | append: portfolio.screenshot.url %}
 			<img src="{{ screenshot_url | relative_url }}"/>
 		</div>
 	</div>

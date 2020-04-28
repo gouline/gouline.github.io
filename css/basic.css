@@ -92,7 +92,7 @@ ul#header-nav {
 ul#header-nav li a {
   margin-right: 10px;
   padding: 5px 0 5px 0;
-  color: #000;
+  color: #222;
   font-size: 16px;
   vertical-align: middle;
 }
@@ -494,6 +494,10 @@ ul#header-nav .icons a {
 
   ul#header-nav a {
     color: #fff;
+  }
+
+  ul#header-nav .icons a img {
+    filter: brightness(0) invert(1);
   }
 
   #footer-content {

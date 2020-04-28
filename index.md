@@ -5,7 +5,7 @@ title: Home
 description: Portfolio, talk materials and links.
 ---
 
-# Hi, I'm Mike...
+# Hi, I'm Mike Gouline...
 
 ...a software engineer and founder of [Traversal.space](https://traversal.space/){:target="_blank"} and [SYDspace](https://sydspace.org/){:target="_blank"}.
 

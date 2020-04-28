@@ -131,7 +131,6 @@ ul#header-nav .icons a {
 
 #footer {
   padding-bottom: 70px;
-  text-align: center;
   font-size: 14px;
   font-weight: light;
   color: #374959;
@@ -275,6 +274,10 @@ ul#header-nav .icons a {
 
   #header-inline .header-section {
     display: inline-block;
+    margin-left: 10px;
+  }
+
+  #header-inline .header-section:first-child {
     margin-left: 25px;
   }
     
@@ -304,6 +307,11 @@ ul#header-nav .icons a {
   ul#header-nav .icons a img {
     width: 15px; 
     height: 15px;
+  }
+
+  #footer-content {
+    padding-left: 25px;
+    padding-right: 25px;
   }
   
   #content h1 {
@@ -392,6 +400,11 @@ ul#header-nav .icons a {
   ul#header-nav .icons a img {
     width: 20px; 
     height: 20px;
+  }
+
+  #footer-content {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   #content h1 {

@@ -29,7 +29,7 @@ a:hover {
 }
 
 code {
-  color: #800;
+  color: #888;
   font-family: "Roboto Mono", Courier, monospace;
   font-size: 14px;
 }
@@ -41,7 +41,7 @@ pre.highlight {
 }
 
 blockquote {
-  border-left: 4px solid #800;
+  border-left: 4px solid #888;
   margin-left: 5px;
   padding-left: 15px;
 }
@@ -129,7 +129,7 @@ ul#header-nav .icons a {
 
 /* Footer */
 
-#footer {
+#footer-content {
   padding-bottom: 70px;
   font-size: 14px;
   font-weight: light;

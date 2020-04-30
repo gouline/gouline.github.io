@@ -80,6 +80,7 @@ hr {
   margin-right: 7px;
   width: 45px;
   height: 45px;
+  border-radius: 100px;
 }
 
 ul#header-nav {
@@ -482,10 +483,6 @@ ul#header-nav .icons a {
   #header-title a,
   #header-title a:hover {
     color: #fff;
-  }
-
-  #header-logo {
-    filter: brightness(0) invert(1);
   }
 
   ul#header-nav li a {

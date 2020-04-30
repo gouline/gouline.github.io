@@ -56,76 +56,59 @@ hr {
 /* Header */
 
 #header {
-  padding: 30px 10px 0 10px;
+  padding: 20px 10px 0 10px;
 }
 
 #header-inline {
-  display: inline-block;
+  display: block;
   width: 100%;
-}
-
-#header-inline .header-section {
-  vertical-align: middle;
-}
-
-#header-title a,
-#header-title a:hover {
-  font-weight: bold;
-  color: #000;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-#header-logo {
-  margin-right: 7px;
-  width: 45px;
-  height: 45px;
-  border-radius: 100px;
-}
-
-ul#header-nav {
-  list-style-type: none;
   margin: 0 0 0 20px;
   padding: 0;
   overflow: hidden;
-}
-
-ul#header-nav li a {
-  margin-right: 10px;
-  padding: 5px 0 5px 0;
-  color: #222;
-  font-size: 16px;
   vertical-align: middle;
 }
 
-ul#header-nav a {
-  display: block;
-  opacity: 0.5;
+#header-inline a {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 5px 0 5px 0;
+  opacity: 0.7;
   color: #000;
   font-size: 16px;
   font-weight: normal;
   text-transform: uppercase;
   border-radius: 5px;
+  vertical-align: middle;
 }
 
-ul#header-nav a:hover,
-ul#header-nav a.selected {
+#header-inline a:hover,
+#header-inline a.selected {
   opacity: 1.0;
   text-decoration: none;
 }
 
-ul#header-nav a.selected {
-  opacity: 0.8;
-}
-
-ul#header-nav a:hover {
+#header-inline a.selected {
   opacity: 1.0;
 }
 
-ul#header-nav .icons a {
-  display: inline;
-  margin-left: 3px;
+#header-inline a:hover {
+  opacity: 1.0;
+}
+
+#header-inline a.icon {
+  margin-left: 5px;
+}
+
+#header-inline a.icon img {
+  width: 20px; 
+  height: 20px;
+}
+
+#header-logo {
   margin-right: 3px;
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
 }
 
 /* Footer */
@@ -183,7 +166,7 @@ ul#header-nav .icons a {
   opacity: 1.0;
 }
 
-.section-content ul.portfolio-list {
+.section-content ul.project-list {
   padding: 0;
   list-style-type: none;
   font-size: 14px;
@@ -241,6 +224,7 @@ ul#header-nav .icons a {
   height: 100%;
   background-color: #111;
   border-radius: 3px;
+  border: 1px solid #222;
 }
 
 .section-thumbnail-phone {
@@ -263,53 +247,26 @@ ul#header-nav .icons a {
 }
 
 /* Desktop-only */
+
 @media only screen and (min-width: 800px) {
+
   .fixed-width {
     max-width: 900px!important;
   }
 
   #header {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 5px;
   }
 
-  #header-inline .header-section {
-    display: inline-block;
-    margin-left: 10px;
-  }
-
-  #header-inline .header-section:first-child {
+  #header-inline {
     margin-left: 25px;
-  }
-    
-  ul#header-nav {
+    margin-right: 25px;
     display: inline-block;
     padding-top: 0;
     padding-bottom: 0;
   }
-
-  ul#header-nav li {
-    float: left;
-  }
-  
-  ul#header-nav li.header-nav-sep {
-    display: block;
-  }
-
-  ul#header-nav .icons {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  
-  ul#header-nav .icons a {
-    margin-right: 7px;
-  }
-  
-  ul#header-nav .icons a img {
-    width: 15px; 
-    height: 15px;
-  }
-
+    
   #footer-content {
     padding-left: 25px;
     padding-right: 25px;
@@ -359,48 +316,20 @@ ul#header-nav .icons a {
 }
 
 /* Phone-only */
+
 @media only screen and (min-width: 100px) and (max-width: 800px) {
   .fixed-width {
     max-width: 600px!important;
   }
 
   #header {
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 0;
   }
 
-  #header-inline .header-section {
-    display: block;
+  #header-inline {
     margin-left: 10px;
-  }
-  
-  ul#header-nav {
-    display: block;
-    padding-top: 5px;
-  }
-  
-  ul#header-nav li {
-    float: left;
-    margin-top: 7px;
-    margin-bottom: 7px;
-  }
-  
-  ul#header-nav li.header-nav-sep {
-    display: none;
-  }
-
-  ul#header-nav .icons {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  
-  ul#header-nav .icons a {
-    margin-right: 13px;
-  }
-  
-  ul#header-nav .icons a img {
-    width: 20px; 
-    height: 20px;
+    margin-right: 10px;
   }
 
   #footer-content {
@@ -480,20 +409,11 @@ ul#header-nav .icons a {
     background-color: #eee;
   }
 
-  #header-title a,
-  #header-title a:hover {
+  #header-inline a {
     color: #fff;
   }
 
-  ul#header-nav li a {
-    color: #fff;
-  }
-
-  ul#header-nav a {
-    color: #fff;
-  }
-
-  ul#header-nav .icons a img {
+  #header-inline a.icon img {
     filter: brightness(0) invert(1);
   }
 

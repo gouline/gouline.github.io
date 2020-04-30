@@ -1,15 +1,11 @@
 sections:
-  - title: Home
-    id: home
-    path: /
-
   - title: Talks
     id: talks
     path: /talks
 
-  - title: Portfolio
-    id: portfolio
-    path: /portfolio
+  - title: Projects
+    id: projects
+    path: /projects
   
   - title: Blog
     url: https://blog.gouline.net

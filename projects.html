@@ -1,0 +1,65 @@
+---
+layout: default
+id: projects
+title: Projects
+description: List of current and past projects.
+---
+
+<div class="section clear">
+	<div class="section-content">
+		<h1>Projects</h1>
+		<p>A non-exhaustive selection of projects that I have had the privilege to work on (and that I can/want to talk about).</p>
+	</div>
+</div>
+
+{% for project in site.data.projects %}
+<div class="section clear">
+	<a name="{{ project.anchor }}"></a>
+	{% if project.screenshot %}
+	<div class="section-thumbnail-container">
+		<div class="section-thumbnail section-thumbnail-{{ project.screenshot.type }}">
+			{% assign screenshot_url = '/img/projects/' | append: project.screenshot.url %}
+			<img src="{{ screenshot_url | relative_url }}"/>
+		</div>
+	</div>
+	{% endif %}
+	<div class="section-content">
+		<h2>
+			{{ project.title }}
+			<a href="#{{ project.anchor }}" class="section-anchor">#</a>
+		</h2>
+		<p>{{ project.description }}</p>
+		{% if project.involvement %}
+		<p>
+			<b>Involvement:</b> {{ project.involvement }}</p>
+		</p>
+		{% endif %}
+		<ul class="project-list">
+			<li>
+				<b>Company:</b>
+				<a href="{{ project.company.url }}" target="_blank">
+					{{ project.company.name }}
+				</a>
+				{% if project.company.label %} – {{ project.company.label }}{% endif %}
+			</li>
+			{% if project.contractor %}
+			<li>
+				<b>Contractor:</b>
+				<a href="{{ project.contractor.url }}" target="_blank">
+					{{ project.contractor.name }}
+				</a>
+				{% if project.contractor.label %} – {{ project.contractor.label }}{% endif %}
+			</li>
+			{% endif %}
+			<li>
+				<b>Links:</b>
+				{% for l in project.links %}{% if forloop.index > 1 %}, {% endif %}{% if l.url %}<a href="{{ l.url }}" target="_blank">{% endif %}{{ l.title }}{% if l.url %}</a>{% endif %}{% if l.label %} ({{ l.label }}){% endif %}{% endfor %}
+			</li>
+			<li>
+				<b>Period:</b>
+				{{ project.date }}
+			</li>
+		</ul>
+	</div>
+</div>
+{% endfor %}

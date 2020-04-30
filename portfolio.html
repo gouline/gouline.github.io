@@ -1,65 +1,11 @@
 ---
-layout: default
-id: portfolio
-title: Portfolio
-description: Portfolio of current and past projects.
+layout: raw
 ---
 
-<div class="section clear">
-	<div class="section-content">
-		<h1>Portfolio</h1>
-		<p>A non-exhaustive selection of projects that I have had the privilege to work on (and that I can/want to talk about).</p>
-	</div>
-</div>
+<head>
+<meta http-equiv="refresh" content="0; url = {{ '/projects' | absolute_url }}"/>
+</head>
 
-{% for portfolio in site.data.portfolio %}
-<div class="section clear">
-	<a name="{{ portfolio.anchor }}"></a>
-	{% if portfolio.screenshot %}
-	<div class="section-thumbnail-container">
-		<div class="section-thumbnail section-thumbnail-{{ portfolio.screenshot.type }}">
-			{% assign screenshot_url = '/img/portfolio/' | append: portfolio.screenshot.url %}
-			<img src="{{ screenshot_url | relative_url }}"/>
-		</div>
-	</div>
-	{% endif %}
-	<div class="section-content">
-		<h2>
-			{{ portfolio.title }}
-			<a href="#{{ portfolio.anchor }}" class="section-anchor">#</a>
-		</h2>
-		<p>{{ portfolio.description }}</p>
-		{% if portfolio.involvement %}
-		<p>
-			<b>Involvement:</b> {{ portfolio.involvement }}</p>
-		</p>
-		{% endif %}
-		<ul class="portfolio-list">
-			<li>
-				<b>Company:</b>
-				<a href="{{ portfolio.company.url }}" target="_blank">
-					{{ portfolio.company.name }}
-				</a>
-				{% if portfolio.company.label %} – {{ portfolio.company.label }}{% endif %}
-			</li>
-			{% if portfolio.contractor %}
-			<li>
-				<b>Contractor:</b>
-				<a href="{{ portfolio.contractor.url }}" target="_blank">
-					{{ portfolio.contractor.name }}
-				</a>
-				{% if portfolio.contractor.label %} – {{ portfolio.contractor.label }}{% endif %}
-			</li>
-			{% endif %}
-			<li>
-				<b>Links:</b>
-				{% for l in portfolio.links %}{% if forloop.index > 1 %}, {% endif %}{% if l.url %}<a href="{{ l.url }}" target="_blank">{% endif %}{{ l.title }}{% if l.url %}</a>{% endif %}{% if l.label %} ({{ l.label }}){% endif %}{% endfor %}
-			</li>
-			<li>
-				<b>Period:</b>
-				{{ portfolio.date }}
-			</li>
-		</ul>
-	</div>
-</div>
-{% endfor %}
+<body>
+<p>Redirecting...</p>
+</body>

@@ -3,9 +3,9 @@ sections:
     id: talks
     path: /talks
 
-  - title: Projects
-    id: projects
-    path: /projects
+  - title: Work
+    id: work
+    path: /work
   
   - title: Blog
     url: https://blog.gouline.net
@@ -16,11 +16,6 @@ social:
     user: gouline
     url: https://github.com/gouline
 
-  twitter:
-    title: Twitter
-    user: mikestruct
-    url: https://twitter.com/mikestruct
-  
   500px:
     title: 500px
     user: nullplane

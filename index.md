@@ -11,4 +11,4 @@ description: Projects, talk materials and links.
 
 Looking for the slides and materials from one of my talks? Click [Talks]({{ '/talks' | relative_url }}).
 
-For a non-exhaustive list of my work, past and present, see [Projects]({{ '/projects' | relative_url }}).
+For a non-exhaustive list of my projects, past and present, see [Work]({{ '/work' | relative_url }}).

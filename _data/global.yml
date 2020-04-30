@@ -10,9 +10,6 @@ sections:
   - title: Blog
     url: https://blog.gouline.net
   
-  - title: Photo
-    url: http://photo.gouline.net
-
 social:
   github:
     title: GitHub
@@ -23,3 +20,8 @@ social:
     title: Twitter
     user: mikestruct
     url: https://twitter.com/mikestruct
+  
+  500px:
+    title: 500px
+    user: nullplane
+    url: https://500px.com/nullplane

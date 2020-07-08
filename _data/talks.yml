@@ -224,3 +224,25 @@
     
     - title: Video
       url: https://www.youtube.com/watch?v=LzaUjm68fMU
+
+- title: "Data Team as an Optimisation Problem"
+  anchor: data-team-as-an-optimisation-Problem
+  description: >
+    Many (if not most) companies reach a point when data becomes a priority. This implies building
+    out an internal practice to integrate into existing systems and processes to deliver the sought
+    insights. In a field so wide, relatively recent and infamous for its buzzwords-per-second count,
+    formalising problems and making explainable decisions is the only route that won’t see you run
+    out of resources and people’s patience.
+    <br/><br/>
+    This talk explores how we approached this challenge at mx51 armed with lessons from engineering
+    and statistics. We start by defining the optimisation problem formally(-ish) and then applying
+    it to actual decisions faced along the way, including technology selection, warehousing and
+    data lake (both Snowflake), ETL, visualisation and ML-driven insights.
+  events:
+    - title: Snowflake - Data Cloud Customer Series
+      date: 2020-07-09T12:00:00+10
+      url: https://www.snowflake.com/webinar/say-hello-to-the-data-cloud-customer-series-mx51/
+  
+  links:
+    - title: Snowflake Slides
+      url: https://docs.google.com/presentation/d/1jxn6CdRZFOaELUfOxYXGAeaqCfUXnnmaR2gPEO3WBlQ

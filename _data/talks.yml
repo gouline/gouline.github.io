@@ -135,10 +135,10 @@
     - title: Video
       url: https://www.youtube.com/watch?v=tJpofj_L40s
 
-    - title: Slides
+    - title: Slides - Conference
       url: https://docs.google.com/presentation/d/19CE4n98sSFHqP10BotbNL55LKpVoS3v5gbd0tj6sx2E
 
-    - title: Meetup Slides
+    - title: Slides - Meetup
       url: https://docs.google.com/presentation/d/1E28AFsW3U0Mf7P3JkEsq5r2lBNyw5IRBNez5Ow1Zz2M
     
     - title: Source
@@ -239,10 +239,10 @@
     it to actual decisions faced along the way, including technology selection, warehousing and
     data lake (both Snowflake), ETL, visualisation and ML-driven insights.
   events:
-    - title: Snowflake - Data Cloud Customer Series
+    - title: Snowflake Data Cloud Customer Series
       date: 2020-07-09T12:00:00+10
       url: https://www.snowflake.com/webinar/say-hello-to-the-data-cloud-customer-series-mx51/
   
   links:
-    - title: Snowflake Slides
+    - title: Slides - Snowflake
       url: https://docs.google.com/presentation/d/1jxn6CdRZFOaELUfOxYXGAeaqCfUXnnmaR2gPEO3WBlQ

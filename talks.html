@@ -20,19 +20,20 @@ description: Talk materials and links.
             {{ talk.title }}
             <a href="#{{ talk.anchor }}" class="section-anchor">#</a>
         </h2>
-        {% for event in talk.events %}
-        <span class="upcoming-flag" date="{{ event.date | date: "%s" }}" style="display:none;">Upcoming:</span>
-        <a href="{{ event.url }}" target="_blank">{{ event.title }}</a>
-        {% if event.date and event.title %} – {% endif %}                
-        {{ event.date | date: '%b %-d, %Y' }} 
-        <br/>
-        {% endfor %}
         <p>{{ talk.description }}</p>
+        {% for event in talk.events %}
+        <div>
+            <span class="upcoming-flag" date="{{ event.date | date: "%s" }}" style="display:none;">Upcoming:</span>
+            <a href="{{ event.url }}" target="_blank">{{ event.title }}</a>
+            {% if event.date and event.title %} &mdash; {% endif %}                
+            {{ event.date | date: '%b %-d, %Y' }} 
+        </div>
         <ul class="section-content-links">
-            {% for link in talk.links %}
+            {% for link in event.links %}
             <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
             {% endfor %}
         </ul>
+        {% endfor %}
     </div>
 </div>
 {% endfor %}

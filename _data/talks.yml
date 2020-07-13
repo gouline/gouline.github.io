@@ -9,16 +9,15 @@
     - title: Android Australia UG Meetup
       date: 2014-09-02T18:30:00+10
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/201086472/
-  
-  links:
-    - title: Slides
-      url: https://docs.google.com/presentation/d/13RJaGdj4-uqb9o7a-OXt6j6FXGCxedk2pyvlG0-jcAQ
-    
-    - title: Article
-      url: https://blog.gouline.net/2014/08/31/kotlin-the-swift-of-android/
-    
-    - title: Source
-      url: https://github.com/gouline/android-samples/tree/master/kotlin-demo
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/13RJaGdj4-uqb9o7a-OXt6j6FXGCxedk2pyvlG0-jcAQ
+        
+        - title: Article
+          url: https://blog.gouline.net/2014/08/31/kotlin-the-swift-of-android/
+        
+        - title: Source
+          url: https://github.com/gouline/android-samples/tree/master/kotlin-demo
 
 - title: "Dagger 2: Even Sharper, Less Square"
   anchor: dagger-2-even-sharper-less-square
@@ -30,16 +29,15 @@
     - title: Android Australia UG Meetup
       date: 2015-05-05T18:30:00+10
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/221697756/
-  
-  links:
-    - title: Slides
-      url: https://docs.google.com/presentation/d/1l64ezSrQNxkN7wGdRFdyLopqiGZUZtzgoyOMxN3iQZc
-    
-    - title: Article
-      url: https://blog.gouline.net/2015/05/04/dagger-2-even-sharper-less-square/
-    
-    - title: Source
-      url: https://github.com/gouline/android-samples/tree/master/dagger2-demo
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1l64ezSrQNxkN7wGdRFdyLopqiGZUZtzgoyOMxN3iQZc
+        
+        - title: Article
+          url: https://blog.gouline.net/2015/05/04/dagger-2-even-sharper-less-square/
+        
+        - title: Source
+          url: https://github.com/gouline/android-samples/tree/master/dagger2-demo
 
 - title: "Kotlin, a Year on"
   anchor: kotlin-a-year-on
@@ -51,10 +49,9 @@
     - title: Android Australia UG Meetup
       date: 2015-10-06T18:30:00+11
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/225340355/
-  
-  links:
-    - title: Slides
-      url: https://docs.google.com/presentation/d/1fM94OW7U6I_RSCKMsgTgZu2gVj5LQehSiKDBcFZE9Zw
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1fM94OW7U6I_RSCKMsgTgZu2gVj5LQehSiKDBcFZE9Zw
 
 - title: "Kotlin Production Tales"
   anchor: kotlin-production-tales
@@ -67,13 +64,12 @@
     - title: Android Australia UG Meetup
       date: 2016-05-03T18:30:00+10
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/230365787/
-  
-  links:
-    - title: Slides
-      url: https://docs.google.com/presentation/d/1wV8E-277sUYl-mkmrqfrlfaOq5A3PF8Mq3tzPbtjtQI
-    
-    - title: Article
-      url: https://blog.gouline.net/kotlin-production-tales-62b56057dc8a
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1wV8E-277sUYl-mkmrqfrlfaOq5A3PF8Mq3tzPbtjtQI
+        
+        - title: Article
+          url: https://blog.gouline.net/kotlin-production-tales-62b56057dc8a
 
 - title: "Asynchronous Vert.x Applications in Kotlin"
   anchor: asynchronous-vertx-applications-in-kotlin
@@ -86,13 +82,12 @@
     - title: Android Australia UG Meetup
       date: 2016-08-04T18:30:00+10
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/232408253/
-
-  links:
-    - title: Slides
-      url: https://docs.google.com/presentation/d/10cC6WJwu6G0a3ZMoFMoWl_slOHG2JDcswEOQj-5qwco
-    
-    - title: Source
-      url: https://github.com/gouline/vertx-kotlin-example
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/10cC6WJwu6G0a3ZMoFMoWl_slOHG2JDcswEOQj-5qwco
+        
+        - title: Source
+          url: https://github.com/gouline/vertx-kotlin-example
 
 - title: "Practical Guide to Gradle with Kotlin"
   anchor: practical-guide-to-gradle-with-kotlin
@@ -104,16 +99,15 @@
     - title: Sydney JVM Community Meetup
       date: 2016-09-14T18:30:00+10
       url: http://www.meetup.com/Sydney-JVM-Community/events/233465115/
-  
-  links:
-    - title: Video
-      url: https://www.youtube.com/watch?v=wwuAyACHbw4
-      
-    - title: Slides
-      url: https://docs.google.com/presentation/d/1BJjqBPELuWsie991-GRZonx0P2Ny4MDhfTewOFIhvqc
-    
-    - title: Source
-      url: https://github.com/gouline/gradle-kotlin-example
+      links:
+        - title: Video
+          url: https://www.youtube.com/watch?v=wwuAyACHbw4
+          
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1BJjqBPELuWsie991-GRZonx0P2Ny4MDhfTewOFIhvqc
+        
+        - title: Source
+          url: https://github.com/gouline/gradle-kotlin-example
 
 - title: "Kotlin, the Pragmatic Language For Android"
   anchor: kotlin-the-pragmatic-language-for-android
@@ -126,23 +120,25 @@
     - title: YOW! Connected Conference 2016
       date: 2016-10-05T09:00:00+11
       url: http://connected.yowconference.com.au/
+      links:
+        - title: Video
+          url: https://www.youtube.com/watch?v=tJpofj_L40s
+
+        - title: Slides
+          url: https://docs.google.com/presentation/d/19CE4n98sSFHqP10BotbNL55LKpVoS3v5gbd0tj6sx2E
+        
+        - title: Source
+          url: https://github.com/gouline/android-samples/tree/master/kotlin-demo
       
     - title: Android Australia UG Meetup
       date: 2016-09-20T18:30:00+10
       url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/233409117/
-  
-  links:
-    - title: Video
-      url: https://www.youtube.com/watch?v=tJpofj_L40s
-
-    - title: Slides - Conference
-      url: https://docs.google.com/presentation/d/19CE4n98sSFHqP10BotbNL55LKpVoS3v5gbd0tj6sx2E
-
-    - title: Slides - Meetup
-      url: https://docs.google.com/presentation/d/1E28AFsW3U0Mf7P3JkEsq5r2lBNyw5IRBNez5Ow1Zz2M
-    
-    - title: Source
-      url: https://github.com/gouline/android-samples/tree/master/kotlin-demo
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1E28AFsW3U0Mf7P3JkEsq5r2lBNyw5IRBNez5Ow1Zz2M
+        
+        - title: Source
+          url: https://github.com/gouline/android-samples/tree/master/kotlin-demo
 
 - title: "You Can, but Should You?"
   anchor: you-can-but-should-you
@@ -156,13 +152,12 @@
     - title: KotlinConf 2017
       date: 2017-11-02T17:15:00-07
       url: https://kotlinconf.com/
-
-  links:
-    - title: Video
-      url: https://www.youtube.com/watch?list=PLQ176FUIyIUY6UK1cgVsbdPYA3X5WLam5&v=ihdEjDoXOgc
-    
-    - title: Slides
-      url: https://drive.google.com/file/d/1SfHQf2rnvilnPMBE6qcMn5Sctzthpkoz
+      links:
+        - title: Video
+          url: https://www.youtube.com/watch?list=PLQ176FUIyIUY6UK1cgVsbdPYA3X5WLam5&v=ihdEjDoXOgc
+        
+        - title: Slides
+          url: https://drive.google.com/file/d/1SfHQf2rnvilnPMBE6qcMn5Sctzthpkoz
 
 - title: "KotlinConf 2017 Recap"
   anchor: kotlinconf-2017-recap
@@ -173,11 +168,10 @@
   events:
     - title: Sydney Kotlin UG Meetup
       date: 2017-11-29T18:30:00+10
-      url: https://sydkotlin.space/#meetup-november-2017
-
-  links:
-    - title: Slides
-      url: https://docs.google.com/presentation/d/1KAX68C8LF3DF7ORSTz9Rh9Y0CmftJwQr4O5xhShjSxQ
+      url: https://sydspace.org/kotlin/#meetup-november-2017
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1KAX68C8LF3DF7ORSTz9Rh9Y0CmftJwQr4O5xhShjSxQ
 
 - title: "Data Science and Other Buzzwords"
   anchor: data-science-and-other-buzzwords
@@ -190,14 +184,13 @@
   events:
     - title: Sydney Kotlin UG Meetup
       date: 2018-08-12T18:30:00+10
-      url: https://sydkotlin.space/#meetup-august-2018
-
-  links:
-    - title: Slides
-      url: https://docs.google.com/presentation/d/15O_WyB-ffuJEdtlkoXJKQcnr_2Dsi-SmNQdHYAGfwP8
-    
-    - title: Source
-      url: https://github.com/gouline/kotlin-data-demos
+      url: https://sydspace.org/kotlin/#meetup-august-2018
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/15O_WyB-ffuJEdtlkoXJKQcnr_2Dsi-SmNQdHYAGfwP8
+        
+        - title: Source
+          url: https://github.com/gouline/kotlin-data-demos
 
 - title: "Exporting dbt Schema to Metabase"
   anchor: exporting-dbt-schema-to-metabase
@@ -210,20 +203,28 @@
     - title: Sydney Data Engineering Meetup
       date: 2020-03-26T18:00:00+10
       url: https://www.meetup.com/Sydney-Data-Engineering-Meetup/events/269593772/
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1rtwkE7Sd6G9Sd_61UCnAZ4TxRcMh7rA2VhGahORdtSI
+        
+        - title: Source
+          url: https://github.com/gouline/dbt-metabase
+        
+        - title: Video
+          url: https://www.youtube.com/watch?v=LzaUjm68fMU
 
     - title: Sydney DBT Meetup
       date: 2020-03-12T18:00:00+10
       url: https://www.meetup.com/Sydney-DBT-Meetup/events/267106119/
-
-  links:
-    - title: Slides
-      url: https://docs.google.com/presentation/d/1rtwkE7Sd6G9Sd_61UCnAZ4TxRcMh7rA2VhGahORdtSI
-    
-    - title: Source
-      url: https://github.com/gouline/dbt-metabase
-    
-    - title: Video
-      url: https://www.youtube.com/watch?v=LzaUjm68fMU
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1rtwkE7Sd6G9Sd_61UCnAZ4TxRcMh7rA2VhGahORdtSI
+        
+        - title: Source
+          url: https://github.com/gouline/dbt-metabase
+        
+        - title: Video
+          url: https://www.youtube.com/watch?v=LzaUjm68fMU
 
 - title: "Data Team as an Optimisation Problem"
   anchor: data-team-as-an-optimisation-Problem
@@ -242,10 +243,9 @@
     - title: Snowflake Data Cloud Customer Series
       date: 2020-07-09T12:00:00+10
       url: https://www.snowflake.com/webinar/say-hello-to-the-data-cloud-customer-series-mx51/
-  
-  links:
-    - title: Slides - Snowflake
-      url: https://docs.google.com/presentation/d/1jxn6CdRZFOaELUfOxYXGAeaqCfUXnnmaR2gPEO3WBlQ
-    
-    - title: Video - Snowflake
-      url: https://wcc.on24.com/webcast/previewlobby?e=2368326&k=15CEF7E77DA389D99933DF8D36CA2EAC
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1jxn6CdRZFOaELUfOxYXGAeaqCfUXnnmaR2gPEO3WBlQ
+        
+        - title: Video
+          url: https://wcc.on24.com/webcast/previewlobby?e=2368326&k=15CEF7E77DA389D99933DF8D36CA2EAC

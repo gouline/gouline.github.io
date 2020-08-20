@@ -240,6 +240,13 @@
     it to actual decisions faced along the way, including technology selection, warehousing and
     data lake (both Snowflake), ETL, visualisation and ML-driven insights.
   events:
+    - title: DataEngBytes
+      date: 2020-08-20T16:50:00+10
+      url: https://dataengconf.com.au/
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1Gqd0qakamJLR2MOJ4grbXh9lqbrFiPWNlAljAqygpho
+
     - title: Snowflake Data Cloud Customer Series
       date: 2020-07-09T12:00:00+10
       url: https://www.snowflake.com/webinar/say-hello-to-the-data-cloud-customer-series-mx51/

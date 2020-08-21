@@ -246,6 +246,12 @@
       links:
         - title: Slides
           url: https://docs.google.com/presentation/d/1Gqd0qakamJLR2MOJ4grbXh9lqbrFiPWNlAljAqygpho
+        
+        - title: Video
+          url: https://www.youtube.com/watch?v=VR63j92IHfA
+        
+        - title: Video (Stream)
+          url: https://www.youtube.com/watch?v=-FkooJeiGrw&t=20832
 
     - title: Snowflake Data Cloud Customer Series
       date: 2020-07-09T12:00:00+10

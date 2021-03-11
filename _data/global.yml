@@ -1,13 +1,13 @@
 sections:
-  - title: Talks
+  - title: talks
     id: talks
     path: /talks
 
-  - title: Work
+  - title: work
     id: work
     path: /work
   
-  - title: Blog
+  - title: blog
     url: https://blog.gouline.net
   
 social:

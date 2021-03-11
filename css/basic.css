@@ -6,7 +6,7 @@ html {
 
 body {
   min-height: 100%;
-  color: #111;
+  color: #333;
 }
 
 body {
@@ -49,15 +49,15 @@ blockquote {
 hr {
   border: none;
   height: 1px;
-  color: #111;
-  background-color: #111;
+  color: #333;
+  background-color: #333;
 }
 
 /* Header */
 
 #header {
-  padding: 20px 10px 10px 10px;
-  background: #f5f6f8;
+  padding: 20px 10px 17px 10px;
+  background: #f0f1f3;
   background: linear-gradient(120deg, rgba(240,241,243,1) 0%, rgba(255,255,255,0) 100%);
 }
 
@@ -67,19 +67,18 @@ hr {
   margin: 0 0 0 20px;
   padding: 0;
   overflow: hidden;
-  /* vertical-align: middle; */
 }
 
 #header-inline a {
   display: inline-block;
-  margin-right: 9px;
+  margin-right: 5px;
   padding: 5px 0 5px 0;
-  opacity: 0.5;
+  opacity: 0.4;
   color: #000;
-  font-size: 17px;
-  font-weight: normal;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 45%;
   letter-spacing: -1px;
-  text-transform: uppercase;
   border-radius: 5px;
   vertical-align: middle;
 }
@@ -130,11 +129,11 @@ hr {
 }
 
 #content h1, #content h2, #content h3 {
-  color: #111;
+  color: #333;
 }
 
 #content p, #content ul {
-  color: #111;
+  color: #333;
   line-height: 1.4;
 }
 
@@ -336,7 +335,7 @@ hr {
   #header {
     margin-top: 0;
     margin-bottom: 0;
-    border-radius: 0;
+    border-radius: 0 0 25px 25px;
   }
 
   #header-inline {

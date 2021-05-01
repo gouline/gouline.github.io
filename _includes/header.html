@@ -1,12 +1,12 @@
-<div id="header" class="fixed-width">
+<div id="header" class="fixed-width {{ page.section }}">
     <div id="header-inline">
-        <a href="{{ '/' | relative_url }}" class="{% if page.id == 'home' %}selected{% endif %}">
-            <img id="header-logo" src="{{ '/img/avatar.jpg' | relative_url }}" alt="{{ site.title }}" title="{{ site.title }}" />
+        <a href="{{ '/' | relative_url }}" class="{% if page.section == 'home' %}selected{% endif %}">
+            <img id="header-logo" src="{{ '/img/avatar.png' | relative_url }}" alt="{{ site.title }}" title="{{ site.title }}" />
         </a>
 
         {% for section in site.data.global.sections %}
         {% if section.path %}
-        <a href="{{ section.path | relative_url }}" class="{% if page.id == section.id %}selected{% endif %}">{{ section.title }}</a>
+        <a href="{{ section.path | relative_url }}" class="{% if page.section == section.section %}selected{% endif %}">{{ section.title }}</a>
         {% else if section.url %}
         <a href="{{ section.url }}">{{ section.title }}</a>
         {% endif %}

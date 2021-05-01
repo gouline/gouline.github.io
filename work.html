@@ -1,6 +1,6 @@
 ---
 layout: default
-id: work
+section: work
 title: Work
 description: List of current and past projects.
 ---
@@ -8,11 +8,20 @@ description: List of current and past projects.
 <div class="section clear">
 	<div class="section-content">
 		<h1>Work</h1>
-		<p>A non-exhaustive selection of projects that I have had the privilege to work on (and that I can/want to talk about).</p>
+		<p>A non-exhaustive selection of current and past projects.</p>
 	</div>
 </div>
 
-{% for project in site.data.projects %}
+<div class="section clear">
+	<div class="section-content">
+		{% for project in site.data.work.projects %}
+		<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+		<p>{{ project.description }}</p>
+		{% endfor %}
+	</div>
+</div>
+
+{% for project in site.data.work.portfolio %}
 <div class="section clear">
 	<a name="{{ project.anchor }}"></a>
 	{% if project.screenshot %}

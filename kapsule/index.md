@@ -1,6 +1,6 @@
 ---
 layout: post
-id: kapsule
+section: work
 title: Kapsule
 description: Minimalist dependency injection library for Kotlin.
 ---
@@ -363,7 +363,7 @@ class Screen {
 <a name="samples"/>
 ## Samples
 
-For sample projects using Kapsule, see the [samples](https://github.com/traversals/kapsule/tree/master/samples) directory. 
+For sample projects using Kapsule, see the [samples](https://github.com/gouline/kapsule/tree/master/samples) directory. 
 
 <a name="javadocs"/>
 ## Javadocs
@@ -380,6 +380,6 @@ For sample projects using Kapsule, see the [samples](https://github.com/traversa
 <a name="links"/>
 ## Links 
 
-* [GitHub](https://github.com/traversals/kapsule)
+* [GitHub](https://github.com/gouline/kapsule)
 * [Bintray](https://bintray.com/traversals/maven/kapsule)
 * [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22space.traversal.kapsule%22)

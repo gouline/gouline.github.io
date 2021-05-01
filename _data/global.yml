@@ -1,10 +1,10 @@
 sections:
   - title: talks
-    id: talks
+    section: talks
     path: /talks
 
   - title: work
-    id: work
+    section: work
     path: /work
   
   - title: blog

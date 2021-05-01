@@ -1,6 +1,5 @@
 ---
 layout: post
-id: support
 title: Support
 description: Support page for projects.
 ---

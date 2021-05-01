@@ -1,6 +1,6 @@
 ---
 layout: post
-id: home
+section: home
 title: Home
 description: Projects, talk materials and links.
 ---
@@ -9,6 +9,6 @@ description: Projects, talk materials and links.
 
 ...a software engineer and founder of [SYDspace](https://sydspace.org/){:target="_blank"}.
 
-Looking for the slides and materials from one of my talks? Click [Talks]({{ '/talks' | relative_url }}).
+Looking for materials from one of my talks? Click [Talks]({{ '/talks' | relative_url }}).
 
-For a non-exhaustive list of my projects, including those published under Traversal.space, see [Work]({{ '/work' | relative_url }}).
+For a non-exhaustive list of my projects, see [Work]({{ '/work' | relative_url }}).

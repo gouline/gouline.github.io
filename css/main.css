@@ -6,7 +6,6 @@ html {
 
 body {
   min-height: 100%;
-  color: #333;
 }
 
 body {
@@ -60,16 +59,16 @@ blockquote {
 hr {
   border: none;
   height: 1px;
-  color: #333;
-  background-color: #333;
+  color: #555560;
+  background-color: #555560;
 }
 
 /* Header */
 
 #header {
   padding: 20px 10px 17px 10px;
-  background: #f0f1f3;
-  background: linear-gradient(120deg, rgba(240,241,243,1) 0%, rgba(255,255,255,0) 100%);
+  background: rgb(240,241,250);
+  background: linear-gradient(120deg,rgba(240,241,250,1) 0%,rgba(255,255,255,0) 100%);
 }
 
 #header-inline {
@@ -84,8 +83,8 @@ hr {
   display: inline-block;
   margin-right: 5px;
   padding: 5px 0 5px 0;
-  opacity: 0.4;
-  color: #000;
+  opacity: 0.5;
+  color: #223;
   font-size: 25px;
   font-weight: bold;
   line-height: 45%;
@@ -96,7 +95,6 @@ hr {
 
 #header-inline a:hover,
 #header-inline a.selected {
-  opacity: 1.0;
   text-decoration: none;
 }
 
@@ -127,9 +125,10 @@ hr {
 
 #footer-content {
   padding-bottom: 70px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: light;
-  color: #999;
+  color: #334;
+  opacity: 0.5;
 }
 
 /* Content */
@@ -140,11 +139,11 @@ hr {
 }
 
 #content h1, #content h2, #content h3 {
-  color: #333;
+  color: #556;
 }
 
 #content p, #content ul {
-  color: #333;
+  color: #334;
   line-height: 1.4;
 }
 
@@ -170,7 +169,8 @@ hr {
 }
 
 .section-content a {
-  color: #222;
+  color: #556;
+  font-weight: 600;
   opacity: 0.7;
 }
 
@@ -198,8 +198,8 @@ hr {
 .section-content ul.section-content-links li a {
   display: inline;
   padding: 4px 8px 4px 8px;
-  background-color: #eee;
-  color: #000;
+  background-color: #eeeef0;
+  color: #000010;
   text-decoration: none;
   white-space: nowrap;
   line-height: 2;
@@ -215,7 +215,7 @@ hr {
 
 .section-content a.section-anchor {
   font-size: 15px; 
-  color: #555;
+  color: #555560;
 }
 
 .section-content .upcoming-flag {
@@ -273,7 +273,7 @@ img.hero {
 
 /* Desktop-only */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
 
   .fixed-width {
     max-width: 900px!important;
@@ -345,7 +345,7 @@ img.hero {
 
 /* Phone-only */
 
-@media only screen and (min-width: 100px) and (max-width: 800px) {
+@media only screen and (min-width: 100px) and (max-width: 900px) {
   
   .fixed-width {
     max-width: 600px!important;

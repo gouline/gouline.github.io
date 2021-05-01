@@ -1,6 +1,6 @@
 ---
 layout: post
-id: luxaforus-privacy
+section: work
 title: Luxaforus Privacy Policy
 description: Privacy policy for the Luxaforus application.
 ---

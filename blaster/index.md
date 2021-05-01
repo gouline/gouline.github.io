@@ -1,6 +1,6 @@
 ---
 layout: post
-id: blaster
+section: work
 title: Blaster
 description: Minimalist Luxafor client application for macOS.
 ---

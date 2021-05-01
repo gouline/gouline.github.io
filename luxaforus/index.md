@@ -1,6 +1,6 @@
 ---
 layout: post
-id: luxaforus
+section: work
 title: Luxaforus
 description: Minimalist Luxafor client application for macOS.
 ---
@@ -21,7 +21,7 @@ Luxaforus is also integrated with the Slack API to synchronise your 'Do Not Dist
 
 ## Links
 
-* **[Download](https://github.com/traversals/luxaforus/releases/latest)**
-* [GitHub](https://github.com/traversals/luxaforus)
-* [Slack app](https://traversal.slack.com/apps/A6D4Y8341-luxaforus)
+* **[Download](https://github.com/gouline/luxaforus/releases/latest)**
+* [GitHub](https://github.com/gouline/luxaforus)
+* [Slack app](https://slack.com/apps/A6D4Y8341-luxaforus)
 * [Privacy policy](/luxaforus/privacy)

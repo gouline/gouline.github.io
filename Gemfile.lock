@@ -62,6 +62,7 @@ DEPENDENCIES
   jekyll (= 3.9.0)
   kramdown (>= 2.3.1)
   kramdown-parser-gfm
+  rexml (>= 3.2.5)
 
 BUNDLED WITH
    1.17.2

@@ -35,6 +35,7 @@ description: List of current and past projects.
 		</p>
 		{% endif %}
 		<ul class="project-list">
+			{% if project.company %}
 			<li>
 				<b>Company:</b>
 				<a href="{{ project.company.url }}" target="_blank">
@@ -42,6 +43,7 @@ description: List of current and past projects.
 				</a>
 				{% if project.company.label %} – {{ project.company.label }}{% endif %}
 			</li>
+			{% endif %}
 			{% if project.contractor %}
 			<li>
 				<b>Contractor:</b>

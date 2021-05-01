@@ -6,16 +6,16 @@
   involvement: >
     I started Blaster as a spare-time project to help out a couple of colleagues who 
     needed to send notifications to clients and then opened up the source on GitHub.
-  company:
-    name: Traversal.space
-    url: https://traversal.space/
   date: 2017
   links:
-    - title: Web
-      url: https://blaster.traversal.space/
+    - title: App
+      url: https://blaster.gouline.net/
+    
+    - title: Website
+      url: https://gouline.net/blaster
     
     - title: GitHub
-      url: https://github.com/traversals/blaster
+      url: https://github.com/gouline/blaster
   screenshot:
     url: blaster.png
     type: default
@@ -50,19 +50,30 @@
     I originally wrote Luxaforus to use on my Luxafor light at work, then others around
     the company wanted to use it and add their own features to it, so the source soon ended
     up on GitHub.
-  company:
-    name: Traversal.space
-    url: https://traversal.space/
   date: 2017
   links:
-    - title: Web
-      url: https://traversal.space/luxaforus
+    - title: Website
+      url: https://gouline.net/luxaforus
 
     - title: GitHub
-      url: https://github.com/traversals/luxaforus
+      url: https://github.com/gouline/luxaforus
   screenshot:
     url: luxaforus.png
     type: default
+
+- title: Kapsule
+  anchor: kapsule
+  description: >
+    Minimalist dependency injection library for Kotlin.
+  involvement: >
+    Wrote as an open source library for use in personal and work projects.
+  date: 2017
+  links:
+    - title: Website
+      url: https://gouline.net/kapsule
+
+    - title: GitHub
+      url: https://github.com/gouline/kapsule
 
 - title: StrataBoss
   anchor: strataboss

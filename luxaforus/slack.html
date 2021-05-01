@@ -1,0 +1,58 @@
+---
+layout: nonav
+id: luxaforus-slack
+title: Luxaforus Slack Integration
+description: Slack integration for Luxaforus.
+---
+
+<script>
+	
+    $(document).ready(function() {
+		$("#loading-container, #open-container, #unsupported-container, #nocode-container").hide();
+		if (!getQueryParam("code")) {
+			$("#nocode-container").show();
+		} else if (!navigator.platform.match(/(Mac)/i)) {
+			$("#unsupported-container").show();
+		} else {
+			$("#open-container").show();
+		}
+	});
+	
+	function openLuxaforusAction() {
+		window.location = "luxaforus://slack/activate?code=" + getQueryParam("code");
+	}
+	
+</script>
+
+<h1>Luxaforus Slack Activation</h1>
+<br/>
+
+<span id="loading-container"> 
+	<p>Loading…</p>
+</span>
+
+<span id="unsupported-container" style="display:none;">
+	<h3>Error: Unsupported platform</h3>
+	
+	<p>Luxaforus only runs on macOS, your browser appears to be running on a different platform.</p>
+	
+	<p>To complete Slack authentication, the activation link must be opened in the native app, which you can't run on your current platform.</p>
+</span>
+
+<span id="nocode-container" style="display:none;">
+	<h3>Error: Missing activation code</h3>
+	
+	<p>Activation code not found, are you sure you were redirected here by Slack authorisation?</p>
+	
+	<p>To try again, click 'Add Slack Integration' in Luxaforus preferences and you will be redirected to Slack login.</p>
+</span>
+
+<span id="open-container" style="display:none;">
+	<p>If you were redirected here by Slack authorisation, click the button below to open the activation link in Luxaforus to complete authentication.</p>
+		
+	<p>Ensure that Luxaforus is running before proceeding.</p>
+
+	<p>
+		<a href="javascript:void(0);" class="action" onclick="openLuxaforusAction()">Open Luxaforus</a>
+	</p>
+</span>

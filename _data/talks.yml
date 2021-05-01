@@ -3,7 +3,7 @@
   description: >
     Now that Apple released Swift for iOS, the need for a more modern language for Android 
     development has become even more apparent and although there are no official alternatives 
-    available from Google, there is viable option from JetBrains -- Kotlin, a modern JVM-based 
+    available from Google, there is viable option from JetBrains — Kotlin, a modern JVM-based 
     language fully integrated into Android Studio and easily usable with the Android SDK.
   events:
     - title: Android Australia UG Meetup

@@ -5,10 +5,12 @@ title: Home
 description: Projects, talk materials and links.
 ---
 
-# Hi, I'm Mike Gouline...
+# Hi, I'm Mike Gouline 👋
 
-...a software engineer and founder of [SYDspace](https://sydspace.org/){:target="_blank"}.
+I'm a software engineer and architect working in the field of data/ML. Also the founder of [SYDspace](https://sydspace.org/){:target="_blank"} where I organise a few industry meetups, such as Kotlin Sydney User Group and Serversiders.
 
-Looking for materials from one of my talks? Click [Talks]({{ '/talks' | relative_url }}).
+Are you looking for slides and/or sources for one of my tech talks? Click [talks]({{ '/talks' | relative_url }}).
 
-For a non-exhaustive list of my projects, see [Work]({{ '/work' | relative_url }}).
+My open source projects† and some past work apps ("portfolio") are listed under [work]({{ '/work' | relative_url }}).
+
+<small style="font-style:italic;">† &ndash; includes projects previously published under Traversal.space, now all merged here.</small>

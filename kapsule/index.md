@@ -380,6 +380,5 @@ For sample projects using Kapsule, see the [samples](https://github.com/gouline/
 <a name="links"/>
 ## Links 
 
-* [GitHub](https://github.com/gouline/kapsule)
-* [Bintray](https://bintray.com/traversals/maven/kapsule)
+* [GitHub project](https://github.com/gouline/kapsule)
 * [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22space.traversal.kapsule%22)

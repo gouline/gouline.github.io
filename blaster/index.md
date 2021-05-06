@@ -18,6 +18,6 @@ but wraps it into a simple API of its own for optimisation.
 
 ## Links
 
-* **[Open app](https://blaster.gouline.net)**
-* [GitHub](https://github.com/gouline/blaster)
+* _[Open app](https://blaster.gouline.net)_
+* [GitHub project](https://github.com/gouline/blaster)
 * [Slack app](https://slack.com/oauth/authorize?client_id=82086680103.380961177015&scope=users:read,team:read,im:write,chat:write:user,chat:write:bot,usergroups:read)

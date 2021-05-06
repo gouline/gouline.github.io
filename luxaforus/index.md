@@ -17,11 +17,11 @@ There are no explicit controls for the light, instead the light turns red when t
 
 Luxaforus is also integrated with the Slack API to synchronise your 'Do Not Disturb' status with your Slack account.
 
-<a href="https://slack.com/oauth/authorize?&client_id=82086680103.217168275137&scope=dnd:write"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+<a href="https://slack.com/oauth/v2/authorize?client_id=82086680103.2035991073523&scope=&user_scope=dnd:write"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 
 ## Links
 
 * **[Download](https://github.com/gouline/luxaforus/releases/latest)**
 * [GitHub](https://github.com/gouline/luxaforus)
-* [Slack app](https://slack.com/apps/A6D4Y8341-luxaforus)
+* [Slack app](https://slack.com/apps/A0211V525FD-luxaforus)
 * [Privacy policy](/luxaforus/privacy)

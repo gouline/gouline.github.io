@@ -9,11 +9,6 @@ projects:
     description: >
       Minimalist macOS client for Luxafor flags.
   
-  - title: Kapsule
-    url: ./kapsule/
-    description: >
-      Minimalist dependency injection library for Kotlin.
-
 portfolio:
   - title: Nucleus Smart
     anchor: nucleus-smart

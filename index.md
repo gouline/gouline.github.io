@@ -7,7 +7,7 @@ description: Projects, talk materials and links.
 
 # Hi, I'm Mike Gouline 👋
 
-I'm a software engineer and architect working in the field of data/ML. Also the founder of [SYDspace](https://sydspace.org/){:target="_blank"} where I organise a few industry meetups, such as Kotlin Sydney User Group and Serversiders.
+I'm a software engineer and architect working in the data/ML field. Also the founder of [SYDspace](https://sydspace.org/){:target="_blank"} where I organise a few industry meetups, such as Sydney Kotlin User Group and Serversiders.
 
 Are you looking for slides and/or sources for one of my tech talks? Click [talks]({{ '/talks' | relative_url }}).
 

@@ -13,4 +13,4 @@ Are you looking for slides and/or sources for one of my tech talks? Click [talks
 
 My open source projects† and some past work apps ("portfolio") are listed under [work]({{ '/work' | relative_url }}).
 
-<small style="font-style:italic;">† &ndash; includes projects previously published under Traversal.space, now all merged here.</small>
+<small style="font-style:italic;">† &ndash; includes projects previously published under Traversal Space, now all merged here.</small>
